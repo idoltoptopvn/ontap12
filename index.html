@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduQuiz Pro - Ôn Thi Tin Học 12 Giữa Kỳ 1</title>
+    <meta name="description" content="Nền tảng thi trắc nghiệm trực tuyến thông minh với đầy đủ ngân hàng câu hỏi đề cương Tin học 12 Giữa kỳ 1, hỗ trợ trắc nghiệm 4 lựa chọn, đúng/sai, trả lời ngắn, phản hồi tức thì và giải thích chi tiết." />
+    <meta property="og:title" content="EduQuiz Pro - Ôn Thi Tin Học 12 Giữa Kỳ 1" />
+    <meta property="og:description" content="Nền tảng thi trắc nghiệm trực tuyến thông minh với đầy đủ ngân hàng câu hỏi đề cương Tin học 12 Giữa kỳ 1, hỗ trợ trắc nghiệm 4 lựa chọn, đúng/sai, trả lời ngắn, phản hồi tức thì và giải thích chi tiết." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      // Suppress Vite HMR / WebSocket connection errors in iframe environment
+      window.addEventListener('error', function(e) {
+        if (
+          (e.filename && e.filename.includes('@vite/client')) ||
+          (e.message && (e.message.includes('WebSocket') || e.message.includes('vite-hmr')))
+        ) {
+          e.preventDefault();
+          e.stopPropagation();
+          e.stopImmediatePropagation();
+          return true;
+        }
+      }, true);
+      window.addEventListener('unhandledrejection', function(e) {
+        var reason = e.reason ? String(e.reason) : '';
+        if (reason.includes('WebSocket') || reason.includes('vite-hmr') || reason.includes('@vite/client')) {
+          e.preventDefault();
+          e.stopPropagation();
+          e.stopImmediatePropagation();
+        }
+      }, true);
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

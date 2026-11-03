@@ -1,0 +1,8 @@
+{
+  "name": "EduQuiz Pro - Khảo Thí & Ôn Thi Tin Học 12",
+  "description": "Nền tảng khảo thí và ôn thi Tin học 12 Giữa kỳ 1 bảo mật với hệ thống quản lý Key 5 giờ 1 thiết bị, chấm điểm tự động và bảng xếp hạng.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

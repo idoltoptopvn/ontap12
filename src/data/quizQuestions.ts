@@ -1,0 +1,2187 @@
+import { Question } from '../types';
+
+export const RAW_QUESTIONS: Question[] = [
+  // ==========================================
+  // CHỦ ĐỀ A: MÁY TÍNH VÀ XÃ HỘI TRI THỨC
+  // BÀI 1: LÀM QUEN VỚI TRÍ TUỆ NHÂN TẠO (Trắc nghiệm 18 câu)
+  // ==========================================
+  {
+    id: 'A1_1',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 1: Làm quen với Trí tuệ nhân tạo',
+    questionNumber: 1,
+    question: 'MYCIN là hệ chuyên gia trong lĩnh vực nào?',
+    options: ['Giáo dục.', 'Y học.', 'Hoá học.', 'Giao thông.'],
+    correctAnswer: 1, // B
+    explanation: 'MYCIN là một trong những hệ chuyên gia sớm nhất trong lĩnh vực Y học, được phát triển tại Đại học Stanford vào đầu thập niên 1970 để chẩn đoán các bệnh nhiễm khuẩn máu.',
+  },
+  {
+    id: 'A1_2',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 1: Làm quen với Trí tuệ nhân tạo',
+    questionNumber: 2,
+    question: 'Trợ lí ảo của Samsung là',
+    options: ['Siri.', 'Cortana.', 'Alexa.', 'Bixby.'],
+    correctAnswer: 3, // D
+    explanation: 'Bixby là trợ lý ảo được phát triển bởi Samsung Electronics. Siri của Apple, Cortana của Microsoft, Alexa của Amazon.',
+  },
+  {
+    id: 'A1_3',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 1: Làm quen với Trí tuệ nhân tạo',
+    questionNumber: 3,
+    question: 'Robot hình người đầu tiên trên thế giới được tích hợp một loạt ứng dụng AI là',
+    options: ['Apollo.', 'Valkyrie.', 'Asimo.', 'Sophia.'],
+    correctAnswer: 2, // Asimo
+    explanation: 'Theo đề cương Tin học 12: Asimo là robot hình người được tích hợp một loạt ứng dụng AI (do hãng Honda phát triển năm 2000).',
+  },
+  {
+    id: 'A1_4',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 1: Làm quen với Trí tuệ nhân tạo',
+    questionNumber: 4,
+    question: 'Robot hình người đầu tiên trên thế giới được tích hợp một loạt ứng dụng AI do hãng nào sản xuất?',
+    options: ['Tesla.', 'Honda.', 'NASA.', 'Toshiba.'],
+    correctAnswer: 1, // B (hoặc theo đề cương kiểm tra)
+    explanation: 'Robot hình người nổi tiếng ASIMO do hãng Honda phát triển (năm 2000). Riêng robot Sophia do hãng Hanson Robotics sản xuất. Ở các phương án trắc nghiệm đã cho, Honda là hãng sản xuất robot hình người nổi tiếng đầu tiên.',
+    ocrNote: 'Lưu ý kiểm tra đề cương: Sophia do Hanson Robotics sản xuất, trong khi Honda chế tạo ASIMO. Đề cương liệt kê [Tesla, Honda, NASA, Toshiba], đáp án thường chọn là Honda (cho Asimo) hoặc cần đối chiếu lại với giáo viên bộ môn.',
+  },
+  {
+    id: 'A1_5',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 1: Làm quen với Trí tuệ nhân tạo',
+    questionNumber: 5,
+    question: 'Hội thảo nào được coi là điểm mốc ghi nhận sự ra đời của thuật ngữ AI, đánh dấu sự khởi đầu của lĩnh vực AI, thúc đẩy sự phát triển của lĩnh vực này trong các năm tiếp theo?',
+    options: ['Hội thảo Hampshire.', 'Hội thảo Bletchley.', 'Hội thảo Dartmouth.', 'Hội thảo Jenesys.'],
+    correctAnswer: 2, // C
+    explanation: 'Hội thảo Dartmouth (Dartmouth Workshop) vào mùa hè năm 1956 tại Đại học Dartmouth (Hoa Kỳ) được coi là cái nôi ra đời của thuật ngữ và ngành Trí tuệ nhân tạo.',
+  },
+  {
+    id: 'A1_6',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 1: Làm quen với Trí tuệ nhân tạo',
+    questionNumber: 6,
+    question: 'Hệ thống nào dưới đây không được coi là hệ thống có ứng dụng AI?',
+    options: ['Google Translate.', 'ChatGPT.', 'Dây chuyền lắp ráp tự động chỉ hoạt động theo chương trình cố định.', 'Dự báo thời tiết.'],
+    correctAnswer: 2, // C
+    explanation: 'Dây chuyền lắp ráp tự động chỉ thực hiện theo các chỉ dẫn cơ học lập trình cố định mà không có khả năng học hỏi hay suy luận thích ứng với dữ liệu mới, do đó là tự động hóa thuần túy chứ không phải AI.',
+  },
+  {
+    id: 'A1_7',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 1: Làm quen với Trí tuệ nhân tạo',
+    questionNumber: 7,
+    question: 'Hệ thống khuyến nghị tích hợp trên YouTube là ví dụ về đặc trưng nào của AI?',
+    options: ['Khả năng học.', 'Khả năng giải quyết vấn đề.', 'Khả năng hiểu ngôn ngữ.', 'Khả năng nhận thức.'],
+    correctAnswer: 0, // A
+    explanation: 'Khả năng học (Machine Learning) cho phép hệ thống khuyến nghị của YouTube phân tích hành vi người dùng, lịch sử xem để tự cải thiện và đưa ra video gợi ý phù hợp.',
+  },
+  {
+    id: 'A1_8',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 1: Làm quen với Trí tuệ nhân tạo',
+    questionNumber: 8,
+    question: 'Máy tính điều khiển xe tự lái như thế nào?',
+    options: [
+      'Sử dụng cảm biến lidar và camera để phát hiện và nhận biết xe xung quanh, các chướng ngại vật, biển báo giao thông và người đi bộ trên đường.',
+      'Sử dụng cảm biến radar và siêu âm để phát hiện và nhận biết xe xung quanh, các chướng ngại vật, biển báo giao thông và người đi bộ trên đường.',
+      'Sử dụng cảm biến siêu âm và lidar để phát hiện và nhận biết xe xung quanh, các chướng ngại vật, biển báo giao thông và người đi bộ trên đường.',
+      'Sử dụng cảm biến radar và camera để phát hiện và nhận biết xe xung quanh, các chướng ngại vật, biển báo giao thông và người đi bộ trên đường.'
+    ],
+    correctAnswer: 3, // D
+    explanation: 'Theo đề cương Tin học 12: Máy tính điều khiển xe tự lái sử dụng cảm biến radar và camera để phát hiện và nhận biết xe xung quanh, các chướng ngại vật, biển báo giao thông và người đi bộ trên đường.',
+  },
+  {
+    id: 'A1_9',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 1: Làm quen với Trí tuệ nhân tạo',
+    questionNumber: 9,
+    question: 'Có thể chia AI thành mấy loại chính theo chức năng?',
+    options: ['2.', '3.', '4.', '5.'],
+    correctAnswer: 0, // A
+    explanation: 'Theo chương trình Tin học 12, AI được chia thành 2 loại chính theo phạm vi/chức năng: Trí tuệ nhân tạo hẹp (AI yếu / Narrow AI) và Trí tuệ nhân tạo tổng quát (AI mạnh / AGI).',
+  },
+  {
+    id: 'A1_10',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 1: Làm quen với Trí tuệ nhân tạo',
+    questionNumber: 10,
+    question: 'Phát biểu nào sau đây sai?',
+    options: [
+      'Mục tiêu của việc phát triển ứng dụng AI là nhằm xây dựng các phần mềm giúp máy tính có được những năng lực trí tuệ như con người.',
+      'Chương trình máy tính chơi cờ là một ví dụ của trí tuệ nhân tạo mạnh.',
+      'Giữa AI và tự động hoá có sự khác biệt.',
+      'Mọi ứng dụng AI trong thực tế đều cần có sự kết hợp ở các mức độ khác nhau của những đặc trưng trí tuệ.'
+    ],
+    correctAnswer: 1, // B
+    explanation: 'Phát biểu B sai vì chương trình máy tính chơi cờ (như Deep Blue, AlphaGo) là ví dụ điển hình của Trí tuệ nhân tạo hẹp (Narrow AI), chỉ chuyên giải quyết bài toán cụ thể chứ chưa đạt tới trí tuệ tổng quát như con người.',
+  },
+  {
+    id: 'A1_11',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 1: Làm quen với Trí tuệ nhân tạo',
+    questionNumber: 11,
+    question: 'Trợ lí ảo có chức năng nào sau đây?',
+    options: [
+      'Tìm kiếm thông tin bằng tiếng nói của người dùng.',
+      'Nhận dạng khuôn mặt.',
+      'Nhận dạng chữ viết tay.',
+      'Kiểm tra lỗi chính tả.'
+    ],
+    correctAnswer: 0, // A
+    explanation: 'Chức năng cốt lõi đặc trưng của trợ lý ảo là lắng nghe, xử lý ngôn ngữ tự nhiên và tìm kiếm thông tin bằng tiếng nói của người dùng.',
+  },
+  {
+    id: 'A1_12',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 1: Làm quen với Trí tuệ nhân tạo',
+    questionNumber: 12,
+    question: 'Phát biểu nào sau đây đúng?',
+    options: [
+      'Hệ chuyên gia MYCIN sử dụng các kĩ thuật Học máy.',
+      'Google dịch là dịch vụ dịch thuật có trả phí do Google phát triển.',
+      'Các robot thông minh được coi là ứng dụng điển hình của AI trong lĩnh vực điều khiển.',
+      'Hệ thống nhận dạng khuôn mặt là một ví dụ của trí tuệ nhân tạo tổng quát.'
+    ],
+    correctAnswer: 2, // C
+    explanation: 'Robot thông minh là ứng dụng tiêu biểu của AI trong lĩnh vực điều khiển tự động. MYCIN dùng hệ dựa trên luật (Rule-based), Google dịch là dịch vụ miễn phí, nhận dạng khuôn mặt là AI hẹp.',
+  },
+  {
+    id: 'A1_13',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 1: Làm quen với Trí tuệ nhân tạo',
+    questionNumber: 13,
+    question: 'Phương án nào sau đây là ứng dụng của AI trong lĩnh vực y học?',
+    options: [
+      'Dịch thuật.',
+      'Bảo mật thông tin.',
+      'Nhận dạng biển số xe.',
+      'Xác định các bất thường trên hình ảnh CT/MRI sọ não.'
+    ],
+    correctAnswer: 3, // D
+    explanation: 'Trong y học, AI phân tích hình ảnh chẩn đoán (CT, MRI, X-quang) để phát hiện sớm khối u, xuất huyết sọ não và các bệnh lý phức tạp.',
+  },
+  {
+    id: 'A1_14',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 1: Làm quen với Trí tuệ nhân tạo',
+    questionNumber: 14,
+    question: 'Hệ thống phân tích tài chính thuộc loại trí tuệ nhân tạo nào?',
+    options: ['Siêu trí tuệ nhân tạo.', 'Trí tuệ nhân tạo tổng quát.', 'Trí tuệ nhân tạo hẹp.', 'Trí tuệ nhân tạo mạnh.'],
+    correctAnswer: 2, // C
+    explanation: 'Hệ thống phân tích tài chính chỉ chuyên xử lý số liệu thị trường và xu hướng tài chính, thuộc nhóm Trí tuệ nhân tạo hẹp (Narrow AI).',
+  },
+  {
+    id: 'A1_15',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 1: Làm quen với Trí tuệ nhân tạo',
+    questionNumber: 15,
+    question: 'Siri không có tính năng nào sau đây?',
+    options: ['Đặt báo thức.', 'Thanh toán hoá đơn.', 'Gọi điện thoại.', 'Tìm kiếm.'],
+    correctAnswer: 1, // B
+    explanation: 'Siri hỗ trợ đặt báo thức, gọi điện thoại, tìm kiếm thông tin; nhưng không tự động độc lập thực hiện thanh toán hoá đơn.',
+  },
+  {
+    id: 'A1_16',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 1: Làm quen với Trí tuệ nhân tạo',
+    questionNumber: 16,
+    question: 'Phương án nào sau đây không phải là ứng dụng của AI trong lĩnh vực sản xuất?',
+    options: ['Điều phối điều trị.', 'Quản lí tồn kho và dự báo nhu cầu.', 'Kiểm tra chất lượng sản phẩm.', 'Tối ưu hoá quá trình lắp ráp.'],
+    correctAnswer: 0, // A
+    explanation: 'Điều phối điều trị là ứng dụng của AI trong y tế và chăm sóc sức khỏe, không thuộc lĩnh vực sản xuất.',
+  },
+  {
+    id: 'A1_17',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 1: Làm quen với Trí tuệ nhân tạo',
+    questionNumber: 17,
+    question: 'AI có lợi ích như thế nào đối với khoa học và nghiên cứu?',
+    options: [
+      'AI có thể tự động chấm điểm bài kiểm tra và phân loại học sinh dựa trên thành tích học tập.',
+      'AI có thể phân tích dữ liệu bệnh lí của bệnh nhân và đề xuất phương pháp điều trị hiệu quả nhất.',
+      'Các hệ thống AI được tích hợp vào dây chuyền sản xuất giúp tăng hiệu suất, giảm sai sót và tiết kiệm chi phí nhờ khả năng làm việc liên tục và không cần nghỉ ngơi.',
+      'AI được sử dụng để dự đoán các kết quả trong các lĩnh vực như thời tiết, tác động của biến đổi khí hậu và địa chất học.'
+    ],
+    correctAnswer: 3, // D
+    explanation: 'Trong nghiên cứu khoa học, AI xử lý mô hình hóa dữ liệu khí hậu, thời tiết, thiên văn và địa chất học để đưa ra các dự báo chính xác.',
+  },
+  {
+    id: 'A1_18',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 1: Làm quen với Trí tuệ nhân tạo',
+    questionNumber: 18,
+    question: 'Thị giác máy tính (Computer vision) là một lĩnh vực trong khoa học máy tính và AI giúp máy tính có khả năng nhận diện, hiểu và xử lý hình ảnh và video một cách tự động. Vậy theo em, thị giác máy tính thực hiện được tác vụ nào sau đây?',
+    options: ['Dự báo thời tiết.', 'Tăng độ nét và làm mịn ảnh.', 'Phân tích hình ảnh y tế.', 'Nhận dạng giọng nói.'],
+    correctAnswer: 2, // C
+    explanation: 'Phân tích hình ảnh y tế (X-quang, MRI) là ứng dụng cốt lõi của thị giác máy tính (Computer Vision) để nhận diện vùng tổn thương.',
+  },
+
+  // ==========================================
+  // GIỚI THIỆU TRÍ TUỆ NHÂN TẠO (Phần I - 10 câu có giải thích)
+  // ==========================================
+  {
+    id: 'A_GT_1',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Giới thiệu Trí tuệ nhân tạo (Cơ bản)',
+    questionNumber: 1,
+    question: 'Trí tuệ nhân tạo (AI) là gì?',
+    options: [
+      'Khả năng của máy tính thực hiện các công việc cơ học.',
+      'Khả năng của máy tính thực hiện các công việc trí tuệ của con người.',
+      'Khả năng của máy tính chơi trò chơi.',
+      'Khả năng của máy tính xử lý dữ liệu nhanh hơn.'
+    ],
+    correctAnswer: 1, // B
+    explanation: 'Trí tuệ nhân tạo (AI) là khả năng của máy tính thực hiện các công việc trí tuệ của con người như suy luận, học hỏi, và giải quyết vấn đề.',
+  },
+  {
+    id: 'A_GT_2',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Giới thiệu Trí tuệ nhân tạo (Cơ bản)',
+    questionNumber: 2,
+    question: 'Sự kiện nào đánh dấu sự khởi đầu của lịch sử trí tuệ nhân tạo?',
+    options: [
+      'Hội thảo tại MIT vào năm 1960.',
+      'Hội thảo tại Stanford vào năm 1955.',
+      'Hội thảo Dartmouth năm 1956.',
+      'Sự phát triển của hệ thống MYCIN vào những năm 1970.'
+    ],
+    correctAnswer: 2, // C
+    explanation: 'Lịch sử trí tuệ nhân tạo bắt đầu tại hội thảo Dartmouth năm 1956, với mục tiêu tạo ra các hệ thống có khả năng suy luận và giải quyết vấn đề như con người.',
+  },
+  {
+    id: 'A_GT_3',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Giới thiệu Trí tuệ nhân tạo (Cơ bản)',
+    questionNumber: 3,
+    question: 'AI yếu được thiết kế để làm gì?',
+    options: [
+      'Thực hiện các nhiệm vụ không cần sự can thiệp của con người.',
+      'Tương tác tự nhiên với con người mà không cần trợ giúp.',
+      'Giải quyết các vấn đề phức tạp trong nhiều lĩnh vực khác nhau.',
+      'Ứng dụng vào các nhiệm vụ cụ thể và cần sự hỗ trợ của con người'
+    ],
+    correctAnswer: 3, // D
+    explanation: 'AI yếu tập trung vào các ứng dụng cụ thể và thường cần sự hỗ trợ của con người để hoạt động hiệu quả.',
+  },
+  {
+    id: 'A_GT_4',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Giới thiệu Trí tuệ nhân tạo (Cơ bản)',
+    questionNumber: 4,
+    question: 'Một trong những thành tựu nổi bật của AI hiện đại là gì?',
+    options: ['Hệ thống MYCIN trong y học.', 'Google Translate.', 'AlphaGo của Google.', 'IBM Watson.'],
+    correctAnswer: 2, // C
+    explanation: 'AlphaGo của Google là một thành tựu hiện đại của AI, thể hiện khả năng suy luận và giải quyết các vấn đề phức tạp trong trò chơi cờ vây.',
+  },
+  {
+    id: 'A_GT_5',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Giới thiệu Trí tuệ nhân tạo (Cơ bản)',
+    questionNumber: 5,
+    question: 'Khả năng nào sau đây KHÔNG phải là đặc trưng của AI?',
+    options: ['Khả năng học.', 'Khả năng nhận thức.', 'Khả năng bay.', 'Khả năng hiểu ngôn ngữ'],
+    correctAnswer: 2, // C
+    explanation: 'Khả năng bay không phải là đặc trưng của AI. Các đặc trưng của AI bao gồm khả năng học, nhận thức, suy luận, và hiểu ngôn ngữ.',
+  },
+  {
+    id: 'A_GT_6',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Giới thiệu Trí tuệ nhân tạo (Cơ bản)',
+    questionNumber: 6,
+    question: 'Lĩnh vực nào nghiên cứu cách máy tính và con người giao tiếp với nhau?',
+    options: ['Học máy.', 'Xử lý ngôn ngữ tự nhiên.', 'Thị giác máy tính.', 'AI tạo sinh.'],
+    correctAnswer: 1, // B
+    explanation: 'Xử lý ngôn ngữ tự nhiên (NLP) là lĩnh vực nghiên cứu các mô hình ngôn ngữ và phương pháp để máy tính và con người giao tiếp với nhau.',
+  },
+  {
+    id: 'A_GT_7',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Giới thiệu Trí tuệ nhân tạo (Cơ bản)',
+    questionNumber: 7,
+    question: 'Lĩnh vực nào liên quan đến việc thu nhận và phân tích nhận dạng hình ảnh?',
+    options: ['Học máy.', 'Xử lý ngôn ngữ tự nhiên.', 'Thị giác máy tính.', 'AI tạo sinh.'],
+    correctAnswer: 2, // C
+    explanation: 'Thị giác máy tính là lĩnh vực nghiên cứu phương pháp thu nhận, xử lý ảnh, và phân tích nhận dạng hình ảnh.',
+  },
+  {
+    id: 'A_GT_8',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Giới thiệu Trí tuệ nhân tạo (Cơ bản)',
+    questionNumber: 8,
+    question: 'Ví dụ nào sau đây KHÔNG phải là ứng dụng của AI tạo sinh?',
+    options: ['ChatGPT.', 'Mubert.', 'Google Search.', 'Midjourney.'],
+    correctAnswer: 2, // C
+    explanation: 'Google Search không phải là ứng dụng của AI tạo sinh. Các ứng dụng AI tạo sinh như ChatGPT, Mubert, và Midjourney tạo ra văn bản, âm nhạc, và hình ảnh từ dữ liệu đã có.',
+  },
+  {
+    id: 'A_GT_9',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Giới thiệu Trí tuệ nhân tạo (Cơ bản)',
+    questionNumber: 9,
+    question: 'AI khác với tự động hóa ở điểm nào?',
+    options: [
+      'AI yêu cầu sự kết hợp của nhiều đặc trưng trí tuệ.',
+      'AI chỉ làm việc với dữ liệu số.',
+      'AI không cần con người can thiệp.',
+      'AI không thể học hỏi từ dữ liệu mới'
+    ],
+    correctAnswer: 0, // A
+    explanation: 'AI yêu cầu sự kết hợp của nhiều đặc trưng trí tuệ để thực hiện các nhiệm vụ phức tạp, khác với tự động hóa, thường chỉ tập trung vào việc thực hiện các quy trình lặp đi lặp lại.',
+  },
+  {
+    id: 'A_GT_10',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Giới thiệu Trí tuệ nhân tạo (Cơ bản)',
+    questionNumber: 10,
+    question: 'Hệ thống AI nào được biết đến với khả năng nghe, nhìn và học hỏi từ tương tác với con người?',
+    options: ['AlphaGo.', 'Xoxe của AlLife.', 'IBM Watson.', 'Siri của Apple.'],
+    correctAnswer: 1, // B
+    explanation: 'Xoxe của AlLife là một sản phẩm AI mới có khả năng nghe, nhìn và học hỏi từ tương tác với con người, thể hiện tiềm năng của AI trong tương lai.',
+  },
+
+  // ==========================================
+  // GIỚI THIỆU TRÍ TUỆ NHÂN TẠO (Phần II - Đúng / Sai)
+  // ==========================================
+  {
+    id: 'A_GT_TF1',
+    type: 'true_false',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Giới thiệu Trí tuệ nhân tạo (Đúng / Sai)',
+    questionNumber: 1,
+    question: 'Phát biểu sau đây đúng hay sai khi nói về AI?',
+    tfSubQuestions: [
+      {
+        id: 'a',
+        label: 'a)',
+        text: 'AI là khả năng của máy tính thực hiện các công việc trí tuệ của con người.',
+        isTrue: true,
+        explanation: 'Đúng: AI là khả năng của máy tính thực hiện các công việc mang tính trí tuệ của con người, như học hỏi, suy luận, và giải quyết vấn đề.',
+      },
+      {
+        id: 'b',
+        label: 'b)',
+        text: 'Mục đích của AI là xây dựng các phần mềm giúp máy tính có năng lực trí tuệ tương tự con người.',
+        isTrue: true,
+        explanation: 'Đúng: Mục đích của AI là xây dựng các phần mềm giúp máy tính có năng lực trí tuệ tương tự con người, có khả năng xử lý các nhiệm vụ phức tạp.',
+      },
+      {
+        id: 'c',
+        label: 'c)',
+        text: 'Lịch sử đầu tiên của trí tuệ nhân tạo bắt đầu tại hội thảo MIT năm 1956.',
+        isTrue: false,
+        explanation: 'Sai: Lịch sử đầu tiên của trí tuệ nhân tạo bắt đầu tại hội thảo Dartmouth năm 1956, không phải tại MIT.',
+      },
+      {
+        id: 'd',
+        label: 'd)',
+        text: 'Hệ thống MYCIN trong y học và AlphaGo của Google là các ví dụ về AI yếu.',
+        isTrue: false,
+        explanation: 'Sai: Hệ thống MYCIN và AlphaGo không phải là ví dụ về AI yếu thông thường. AlphaGo của Google thể hiện khả năng suy luận và giải quyết các vấn đề phức tạp, trong khi AI yếu nhằm vào các ứng dụng cụ thể và cần sự hỗ trợ của con người.',
+      },
+    ],
+  },
+  {
+    id: 'A_GT_TF2',
+    type: 'true_false',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Giới thiệu Trí tuệ nhân tạo (Đúng / Sai)',
+    questionNumber: 2,
+    question: 'Đánh dấu đúng hoặc sai về một số lĩnh vực nghiên cứu phát triển AI?',
+    tfSubQuestions: [
+      {
+        id: 'a',
+        label: 'a)',
+        text: 'Học máy là lĩnh vực nghiên cứu làm cho máy tính có khả năng học từ dữ liệu thu được.',
+        isTrue: true,
+        explanation: 'Đúng: Học máy là lĩnh vực nghiên cứu làm cho máy tính có khả năng học từ dữ liệu thu được, giúp cải thiện hiệu suất và độ chính xác của hệ thống.',
+      },
+      {
+        id: 'b',
+        label: 'b)',
+        text: 'Xử lý ngôn ngữ tự nhiên là nghiên cứu các mô hình ngôn ngữ để máy tính và con người giao tiếp với nhau.',
+        isTrue: true,
+        explanation: 'Đúng: Xử lý ngôn ngữ tự nhiên nghiên cứu các mô hình ngôn ngữ và phương pháp để máy tính và con người giao tiếp với nhau một cách hiệu quả.',
+      },
+      {
+        id: 'c',
+        label: 'c)',
+        text: 'Thị giác máy tính là lĩnh vực nghiên cứu phương pháp thu nhận và phân tích nhận dạng hình ảnh.',
+        isTrue: true,
+        explanation: 'Đúng: Thị giác máy tính nghiên cứu phương pháp thu nhận, xử lý và phân tích nhận dạng hình ảnh nhằm phát triển các hệ thống như phương tiện tự lái hay camera nhận dạng khuôn mặt.',
+      },
+      {
+        id: 'd',
+        label: 'd)',
+        text: 'AI tạo sinh chỉ tạo ra văn bản từ dữ liệu đã có.',
+        isTrue: false,
+        explanation: 'Sai: AI tạo sinh không chỉ tạo ra văn bản mà còn có thể tạo ra hình ảnh, âm thanh và nhiều loại nội dung khác từ dữ liệu đã có. Ví dụ: ChatGPT, Mubert, Midjourney, và DALL-E.',
+      },
+    ],
+  },
+
+  // ==========================================
+  // BÀI 2: GIỚI THIỆU VỀ TRÍ TUỆ NHÂN TẠO (TIẾP THEO)
+  // ==========================================
+  {
+    id: 'A2_1',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 2: Ứng dụng & Nguy cơ của AI',
+    questionNumber: 1,
+    question: 'Robotics là gì?',
+    options: [
+      'Lĩnh vực nghiên cứu cơ khí đơn thuần.',
+      'Lĩnh vực nghiên cứu và phát triển robot, kết hợp cơ khí, điện tử, máy tính và trí tuệ nhân tạo.',
+      'Lĩnh vực chuyên về điện tử và lập trình phần mềm.',
+      'Lĩnh vực phát triển hệ thống điều khiển tự động.'
+    ],
+    correctAnswer: 1, // B
+    explanation: 'Robotics là lĩnh vực kết hợp nhiều ngành khoa học để phát triển các robot thông minh, áp dụng trong sản xuất tự động và các công việc nguy hiểm.',
+  },
+  {
+    id: 'A2_2',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 2: Ứng dụng & Nguy cơ của AI',
+    questionNumber: 2,
+    question: 'Ứng dụng của AI trong điều khiển tự động là gì?',
+    options: [
+      'Thiết kế đồ họa.',
+      'Phát triển phần mềm quản lý.',
+      'Quét sản phẩm lỗi và giám sát nguyên vật liệu.',
+      'Chỉnh sửa ảnh.'
+    ],
+    correctAnswer: 2, // C
+    explanation: 'AI trong điều khiển tự động giúp máy móc và thiết bị hoạt động tự động, như giám sát nguyên vật liệu và quét sản phẩm lỗi.',
+  },
+  {
+    id: 'A2_3',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 2: Ứng dụng & Nguy cơ của AI',
+    questionNumber: 3,
+    question: 'Nhận dạng vân tay và khuôn mặt trên điện thoại di động là ứng dụng của AI trong lĩnh vực nào?',
+    options: ['Thiết kế đồ họa.', 'Điều khiển tự động.', 'Tiện ích thông minh.', 'Dịch vụ khách hàng.'],
+    correctAnswer: 2, // C
+    explanation: 'Nhận dạng vân tay và khuôn mặt là các ứng dụng của AI trong việc phát triển các tiện ích thông minh trên điện thoại di động.',
+  },
+  {
+    id: 'A2_4',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 2: Ứng dụng & Nguy cơ của AI',
+    questionNumber: 4,
+    question: 'AI đã tạo ra những trợ lý ảo nào sau đây?',
+    options: [
+      'Google Assistant, Siri, Bixby',
+      'YouTube, Netflix, Spotify',
+      'Photoshop, Illustrator, CorelDRAW',
+      'Word, Excel, PowerPoint'
+    ],
+    correctAnswer: 0, // A
+    explanation: 'AI đã phát triển các trợ lý ảo như Google Assistant, Siri, và Bixby, cung cấp hỗ trợ bằng văn bản hoặc tiếng nói.',
+  },
+  {
+    id: 'A2_5',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 2: Ứng dụng & Nguy cơ của AI',
+    questionNumber: 5,
+    question: 'AI được sử dụng trong tài chính ngân hàng để làm gì?',
+    options: [
+      'Thiết kế logo.',
+      'Phát hiện các giao dịch đáng ngờ và gian lận.',
+      'Quản lý kho hàng.',
+      'Tối ưu hóa quảng cáo.'
+    ],
+    correctAnswer: 1, // B
+    explanation: 'AI giúp phân tích hành vi giao dịch để phát hiện các hành vi đáng ngờ hoặc gian lận trong tài chính ngân hàng.',
+  },
+  {
+    id: 'A2_6',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 2: Ứng dụng & Nguy cơ của AI',
+    questionNumber: 6,
+    question: 'DeepMind của Google hỗ trợ lĩnh vực nào sau đây?',
+    options: ['Giáo dục.', 'Y tế.', 'Tài chính.', 'Du lịch.'],
+    correctAnswer: 1, // B
+    explanation: 'DeepMind của Google hỗ trợ trong lĩnh vực y tế, giúp chẩn đoán bệnh và lập phác đồ điều trị (ví dụ dự đoán cấu trúc protein AlphaFold).',
+  },
+  {
+    id: 'A2_7',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 2: Ứng dụng & Nguy cơ của AI',
+    questionNumber: 7,
+    question: 'Trong giáo dục, AI được sử dụng để làm gì?',
+    options: [
+      'Quản lý hồ sơ học sinh.',
+      'Cá nhân hóa học tập qua các hệ thống Elearning.',
+      'Tạo ra đồ chơi giáo dục.',
+      'Tối ưu hóa các hoạt động ngoại khóa.'
+    ],
+    correctAnswer: 1, // B
+    explanation: 'AI trong giáo dục giúp cá nhân hóa quá trình học tập, như các chatbot trên Duolingo hỗ trợ học ngoại ngữ thích ứng với tốc độ học của từng học sinh.',
+  },
+  {
+    id: 'A2_8',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 2: Ứng dụng & Nguy cơ của AI',
+    questionNumber: 8,
+    question: 'Một trong những nguy cơ của AI là gì?',
+    options: [
+      'Tăng cường an ninh mạng.',
+      'Tạo ra nhiều việc làm mới.',
+      'Tự động hoá nhiều công việc dẫn đến thất nghiệp.',
+      'Cải thiện quyền riêng tư.'
+    ],
+    correctAnswer: 2, // C
+    explanation: 'AI có thể tự động hóa nhiều công việc, dẫn đến nguy cơ mất việc làm cho một số người lao động truyền thống.',
+  },
+  {
+    id: 'A2_9',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 2: Ứng dụng & Nguy cơ của AI',
+    questionNumber: 9,
+    question: 'AI có thể vi phạm quyền riêng tư bằng cách nào?',
+    options: [
+      'Tăng cường bảo mật dữ liệu.',
+      'Thu thập và lạm dụng dữ liệu cá nhân.',
+      'Tối ưu hóa quy trình sản xuất.',
+      'Cải thiện giao tiếp giữa các thiết bị.'
+    ],
+    correctAnswer: 1, // B
+    explanation: 'AI có thể vi phạm quyền riêng tư khi dữ liệu cá nhân bị thu thập trái phép và sử dụng không đúng mục đích.',
+  },
+  {
+    id: 'A2_10',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 2: Ứng dụng & Nguy cơ của AI',
+    questionNumber: 10,
+    question: 'Để đảm bảo an toàn trong quá trình phát triển AI, cần phải làm gì?',
+    options: [
+      'Tăng cường giám sát và kiểm tra.',
+      'Phát triển thêm nhiều AI mới.',
+      'Tự động hoá tất cả các quy trình.',
+      'Giảm bớt sự kiểm soát của con người.'
+    ],
+    correctAnswer: 0, // A
+    explanation: 'Để đảm bảo an toàn khi phát triển AI, cần có các biện pháp giám sát và kiểm tra chặt chẽ nhằm khai thác tiềm năng của AI mà vẫn bảo vệ quyền lợi cộng đồng.',
+  },
+
+  // ==========================================
+  // BÀI 2 (TIẾP THEO) - ĐÚNG / SAI
+  // ==========================================
+  {
+    id: 'A2_TF1',
+    type: 'true_false',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 2: Ứng dụng AI (Đúng / Sai)',
+    questionNumber: 1,
+    question: 'Phát biểu sau đây đúng hay sai về một số lĩnh vực phát triển nhờ ứng dụng AI?',
+    tfSubQuestions: [
+      {
+        id: 'a',
+        label: 'a)',
+        text: 'AI giúp phát triển người máy thông minh, chẳng hạn như robot có thể giao tiếp đa ngôn ngữ.',
+        isTrue: true,
+        explanation: 'Đúng: AI trong lĩnh vực robotics đã phát triển những robot thông minh có khả năng giao tiếp đa ngôn ngữ, như robot Grace ở Hồng Kông.',
+      },
+      {
+        id: 'b',
+        label: 'b)',
+        text: 'AI không thể áp dụng trong điều khiển tự động, các thiết bị vẫn cần sự can thiệp của con người.',
+        isTrue: false,
+        explanation: 'Sai: AI có thể áp dụng trong điều khiển tự động, giúp máy móc và thiết bị hoạt động mà không cần sự can thiệp của con người.',
+      },
+      {
+        id: 'c',
+        label: 'c)',
+        text: 'Nhận dạng vân tay và khuôn mặt trên điện thoại di động là một ứng dụng của AI trong các tiện ích thông minh.',
+        isTrue: true,
+        explanation: 'Đúng: Nhận dạng vân tay và khuôn mặt trên điện thoại di động là một ví dụ về các tiện ích thông minh phát triển nhờ AI.',
+      },
+      {
+        id: 'd',
+        label: 'd)',
+        text: 'Các trợ lý ảo và chatbot do AI phát triển chỉ có thể hỗ trợ trong lĩnh vực tài chính ngân hàng.',
+        isTrue: false,
+        explanation: 'Sai: Trợ lý ảo và chatbot do AI phát triển có thể hỗ trợ trong nhiều lĩnh vực khác nhau, không chỉ giới hạn ở tài chính ngân hàng.',
+      },
+    ],
+  },
+  {
+    id: 'A2_TF2',
+    type: 'true_false',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 2: Cảnh báo ứng dụng AI (Đúng / Sai)',
+    questionNumber: 2,
+    question: 'Cảnh báo về ứng dụng AI sau đây đúng hay sai?',
+    tfSubQuestions: [
+      {
+        id: 'a',
+        label: 'a)',
+        text: 'AI có thể dẫn đến áp lực thất nghiệp do tự động hoá nhiều công việc.',
+        isTrue: true,
+        explanation: 'Đúng: AI có khả năng tự động hóa nhiều công việc, điều này có thể dẫn đến áp lực thất nghiệp cho một số ngành nghề.',
+      },
+      {
+        id: 'b',
+        label: 'b)',
+        text: 'AI luôn bảo vệ quyền riêng tư của người dùng, không bao giờ có khả năng vi phạm.',
+        isTrue: false,
+        explanation: 'Sai: AI có thể vi phạm quyền riêng tư nếu dữ liệu cá nhân bị lạm dụng, đặc biệt khi thu thập và xử lý dữ liệu không đúng cách.',
+      },
+      {
+        id: 'c',
+        label: 'c)',
+        text: 'AI có thể đe dọa an ninh hệ thống nếu bị tấn công hoặc thay đổi dữ liệu.',
+        isTrue: true,
+        explanation: 'Đúng: AI có thể đe dọa an ninh hệ thống nếu bị tấn công xâm nhập hoặc thay đổi dữ liệu.',
+      },
+      {
+        id: 'd',
+        label: 'd)',
+        text: 'AI không thể kiểm soát hoặc thay đổi ý thức và hành vi của con người.',
+        isTrue: false,
+        explanation: 'Sai: AI có khả năng kiểm soát hoặc ảnh hưởng đến ý thức và hành vi của con người, điều này có thể xảy ra khi các hệ thống AI được thiết kế để điều chỉnh hoặc thay đổi các hành vi dựa trên dữ liệu.',
+      },
+    ],
+  },
+
+  // ==========================================
+  // CHỦ ĐỀ B: CƠ SỞ VỀ MẠNG MÁY TÍNH
+  // BÀI 1: CƠ SỞ MẠNG MÁY TÍNH (Trắc nghiệm 10 câu)
+  // ==========================================
+  {
+    id: 'B1_1',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 1: Cơ sở mạng máy tính',
+    questionNumber: 1,
+    question: 'Mạng máy tính được kết nối bằng những phương tiện nào?',
+    options: ['Cáp mạng và sóng vô tuyến', 'Chỉ bằng cáp mạng', 'Chỉ bằng sóng vô tuyến', 'Điện thoại và cáp mạng'],
+    correctAnswer: 0, // A
+    explanation: 'Mạng máy tính có thể kết nối các thiết bị số thông qua cáp mạng (dây dẫn) hoặc sóng vô tuyến (Wi-Fi).',
+  },
+  {
+    id: 'B1_2',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 1: Cơ sở mạng máy tính',
+    questionNumber: 2,
+    question: 'Thiết bị nào sau đây được coi là thiết bị đầu cuối?',
+    options: ['Switch', 'Router', 'Máy tính cá nhân', 'Modem'],
+    correctAnswer: 2, // C
+    explanation: 'Thiết bị đầu cuối bao gồm các thiết bị như máy tính cá nhân, điện thoại thông minh, máy tính bảng, máy in, cảm biến...',
+  },
+  {
+    id: 'B1_3',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 1: Cơ sở mạng máy tính',
+    questionNumber: 3,
+    question: 'Địa chỉ MAC gồm bao nhiêu ký tự hệ thập lục phân?',
+    options: ['8', '10', '12', '16'],
+    correctAnswer: 2, // C
+    explanation: 'Địa chỉ MAC là một địa chỉ duy nhất gồm 12 ký tự hệ thập lục phân (48 bit), dùng để nhận diện card mạng của thiết bị.',
+  },
+  {
+    id: 'B1_4',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 1: Cơ sở mạng máy tính',
+    questionNumber: 4,
+    question: 'Thiết bị nào trong mạng LAN có nhiệm vụ chuyển tiếp dữ liệu giữa các thiết bị?',
+    options: ['Router', 'Modem', 'Switch', 'Access Point'],
+    correctAnswer: 2, // C
+    explanation: 'Switch là thiết bị trong mạng LAN có nhiệm vụ kết nối và chuyển tiếp dữ liệu giữa các thiết bị dựa vào bảng địa chỉ MAC.',
+  },
+  {
+    id: 'B1_5',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 1: Cơ sở mạng máy tính',
+    questionNumber: 5,
+    question: 'Mạng WLAN sử dụng công nghệ nào để kết nối các thiết bị?',
+    options: ['Bluetooth', 'Ethernet', 'Wi-Fi', 'Zigbee'],
+    correctAnswer: 2, // C
+    explanation: 'Mạng WLAN (Wireless LAN) sử dụng công nghệ Wi-Fi để kết nối các thiết bị không dây với nhau.',
+  },
+  {
+    id: 'B1_6',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 1: Cơ sở mạng máy tính',
+    questionNumber: 6,
+    question: 'Thiết bị nào cung cấp kết nối Wi-Fi trong mạng cục bộ?',
+    options: ['Switch', 'Router', 'Access Point (AP)', 'Modem'],
+    correctAnswer: 2, // C
+    explanation: 'Access Point (AP) cung cấp kết nối Wi-Fi cho các thiết bị không dây trong mạng cục bộ.',
+  },
+  {
+    id: 'B1_7',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 1: Cơ sở mạng máy tính',
+    questionNumber: 7,
+    question: 'Mạng diện rộng (WAN) có phạm vi địa lý như thế nào?',
+    options: ['Trong một phòng', 'Trong một tòa nhà', 'Trong một thành phố hoặc quốc gia', 'Trong một khu vực nhỏ'],
+    correctAnswer: 2, // C
+    explanation: 'Mạng diện rộng (WAN) kết nối các mạng LAN khác nhau trong phạm vi địa lý rộng lớn như thành phố, quốc gia hoặc toàn cầu.',
+  },
+  {
+    id: 'B1_8',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 1: Cơ sở mạng máy tính',
+    questionNumber: 8,
+    question: 'Thiết bị nào có nhiệm vụ chuyển đổi tín hiệu giữa số và tương tự?',
+    options: ['Router', 'Modem', 'Switch', 'Access Point'],
+    correctAnswer: 1, // B
+    explanation: 'Modem (Modulator-Demodulator) chuyển đổi tín hiệu giữa số và tương tự, thường được sử dụng để kết nối với nhà cung cấp dịch vụ Internet.',
+  },
+  {
+    id: 'B1_9',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 1: Cơ sở mạng máy tính',
+    questionNumber: 9,
+    question: 'Nhà cung cấp dịch vụ truy cập Internet được gọi là gì?',
+    options: ['ISP', 'AP', 'WAN', 'LAN'],
+    correctAnswer: 0, // A
+    explanation: 'ISP (Internet Service Provider) là thuật ngữ chỉ nhà cung cấp dịch vụ truy cập Internet như VNPT, Viettel, FPT...',
+  },
+  {
+    id: 'B1_10',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 1: Cơ sở mạng máy tính',
+    questionNumber: 10,
+    question: 'Thiết bị nào xác định đường đi tối ưu cho gói tin trong mạng WAN?',
+    options: ['Switch', 'Modem', 'Access Point', 'Router'],
+    correctAnswer: 3, // D
+    explanation: 'Router là thiết bị chuyển tiếp dữ liệu trong mạng WAN và xác định đường đi tối ưu cho gói tin đến địa chỉ đích.',
+  },
+
+  // ==========================================
+  // BÀI 1: CƠ SỞ MẠNG MÁY TÍNH - ĐÚNG / SAI
+  // ==========================================
+  {
+    id: 'B1_TF1',
+    type: 'true_false',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 1: Cơ sở mạng (Đúng / Sai)',
+    questionNumber: 1,
+    question: 'Các phát biểu sau đúng hay sai?',
+    tfSubQuestions: [
+      {
+        id: 'a',
+        label: 'a)',
+        text: 'Mạng máy tính có thể kết nối bằng dây cáp mạng hoặc sóng vô tuyến.',
+        isTrue: true,
+        explanation: 'Đúng. Mạng máy tính có thể kết nối thông qua cáp mạng hoặc sóng vô tuyến.',
+      },
+      {
+        id: 'b',
+        label: 'b)',
+        text: 'Cáp quang sử dụng dây dẫn kim loại để truyền tín hiệu điện.',
+        isTrue: false,
+        explanation: 'Sai. Cáp quang sử dụng sợi thủy tinh/dây dẫn trong suốt để truyền tín hiệu ánh sáng, không phải kim loại.',
+      },
+      {
+        id: 'c',
+        label: 'c)',
+        text: 'Thiết bị đầu cuối bao gồm máy tính cá nhân, điện thoại thông minh, máy in, và cảm biến nhiệt độ.',
+        isTrue: true,
+        explanation: 'Đúng. Thiết bị đầu cuối bao gồm các thiết bị như máy tính cá nhân, điện thoại thông minh, máy tính bảng, máy in, và các cảm biến trong mạng.',
+      },
+      {
+        id: 'd',
+        label: 'd)',
+        text: 'Địa chỉ MAC gồm 12 ký tự hệ thập lục phân, biểu diễn cho mỗi thiết bị trong mạng máy tính.',
+        isTrue: true,
+        explanation: 'Đúng. Địa chỉ MAC gồm 12 ký tự hệ thập lục phân, là địa chỉ vật lý duy nhất cho mỗi card mạng.',
+      },
+    ],
+  },
+  {
+    id: 'B1_TF2',
+    type: 'true_false',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 1: Loại mạng & Thiết bị (Đúng / Sai)',
+    questionNumber: 2,
+    question: 'Các phát biểu sau đúng hay sai khi nói về các loại mạng và thiết bị liên quan:',
+    tfSubQuestions: [
+      {
+        id: 'a',
+        label: 'a)',
+        text: 'Mạng LAN thường được sử dụng để kết nối các thiết bị trong phạm vi nhỏ như tòa nhà hoặc văn phòng.',
+        isTrue: true,
+        explanation: 'Đúng. Mạng LAN thường kết nối các thiết bị trong phạm vi nhỏ như tòa nhà, văn phòng, hoặc trường học.',
+      },
+      {
+        id: 'b',
+        label: 'b)',
+        text: 'Switch trong mạng LAN sử dụng bảng địa chỉ IP để xác định cổng để chuyển tiếp gói tin.',
+        isTrue: false,
+        explanation: 'Sai. Switch sử dụng bảng địa chỉ MAC, không phải địa chỉ IP, để xác định cổng chuyển tiếp khung dữ liệu.',
+      },
+      {
+        id: 'c',
+        label: 'c)',
+        text: 'Mạng WLAN là mạng cục bộ không dây sử dụng công nghệ Wi-Fi.',
+        isTrue: true,
+        explanation: 'Đúng. Mạng WLAN sử dụng công nghệ sóng vô tuyến Wi-Fi để kết nối các thiết bị không dây với nhau.',
+      },
+      {
+        id: 'd',
+        label: 'd)',
+        text: 'Router là thiết bị chuyển tiếp dữ liệu trong mạng WAN, xác định đường đi tối ưu cho gói tin.',
+        isTrue: true,
+        explanation: 'Đúng. Router là thiết bị trong mạng WAN, có nhiệm vụ xác định đường đi tối ưu cho gói tin đến đích.',
+      },
+    ],
+  },
+
+  // ==========================================
+  // BÀI 2: GIAO THỨC MẠNG (Trắc nghiệm 10 câu)
+  // ==========================================
+  {
+    id: 'B2_1',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 2: Giao thức mạng',
+    questionNumber: 1,
+    question: 'Giao thức mạng là gì?',
+    options: [
+      'Tập hợp các quy tắc điều khiển truyền thông và trao đổi dữ liệu',
+      'Một loại phần cứng trong máy tính',
+      'Một dạng phần mềm ứng dụng',
+      'Một loại kết nối vật lý trong mạng'
+    ],
+    correctAnswer: 0, // A
+    explanation: 'Giao thức mạng là tập hợp các quy tắc dùng để điều khiển việc truyền thông và trao đổi dữ liệu giữa các thiết bị trong mạng máy tính.',
+  },
+  {
+    id: 'B2_2',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 2: Giao thức mạng',
+    questionNumber: 2,
+    question: 'Giao thức Internet (IP) có vai trò gì trong mạng máy tính?',
+    options: [
+      'Chia dữ liệu thành gói tin',
+      'Quản lý và định tuyến gói tin trên mạng',
+      'Gửi và nhận thư điện tử',
+      'Truyền tải dữ liệu của các trang'
+    ],
+    correctAnswer: 1, // B
+    explanation: 'Giao thức Internet (IP) quản lý và định tuyến các gói tin trên mạng máy tính, gắn địa chỉ IP của máy gửi và máy nhận vào mỗi gói tin.',
+  },
+  {
+    id: 'B2_3',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 2: Giao thức mạng',
+    questionNumber: 3,
+    question: 'Giao thức TCP đảm bảo điều gì trong truyền dữ liệu?',
+    options: [
+      'Đảm bảo độ tin cậy và đúng thứ tự',
+      'Chia dữ liệu thành các tệp',
+      'Chuyển đổi địa chỉ IP thành tên miền',
+      'Truyền tải dữ liệu không yêu cầu kết nối'
+    ],
+    correctAnswer: 0, // A
+    explanation: 'TCP đảm bảo truyền dữ liệu ổn định và đúng thứ tự giữa các ứng dụng, có cơ chế kiểm tra lỗi, khôi phục và điều chỉnh tốc độ truyền dữ liệu.',
+  },
+  {
+    id: 'B2_4',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 2: Giao thức mạng',
+    questionNumber: 4,
+    question: 'Giao thức UDP khác TCP như thế nào?',
+    options: [
+      'UDP đảm bảo độ tin cậy, TCP không đảm bảo',
+      'UDP không yêu cầu kết nối và không đảm bảo độ tin cậy, TCP đảm bảo độ tin cậy',
+      'UDP sử dụng địa chỉ IP, TCP không sử dụng',
+      'UDP chỉ dùng cho trang web, TCP dùng cho email'
+    ],
+    correctAnswer: 1, // B
+    explanation: 'UDP không yêu cầu kết nối và không đảm bảo độ tin cậy, trong khi TCP đảm bảo độ tin cậy và đúng thứ tự của dữ liệu.',
+  },
+  {
+    id: 'B2_5',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 2: Giao thức mạng',
+    questionNumber: 5,
+    question: 'Địa chỉ IP là gì?',
+    options: [
+      'Một loại giao thức truyền tải dữ liệu',
+      'Một số duy nhất gán cho mỗi thiết bị trong mạng',
+      'Một thiết bị mạng',
+      'Một phần mềm quản lý mạng'
+    ],
+    correctAnswer: 1, // B
+    explanation: 'Địa chỉ IP là số duy nhất được gán cho mỗi thiết bị trong mạng máy tính, dùng để nhận diện và định vị thiết bị đó.',
+  },
+  {
+    id: 'B2_6',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 2: Giao thức mạng',
+    questionNumber: 6,
+    question: 'Phiên bản nào không phải của giao thức IP?',
+    options: ['IPv4', 'IPv5', 'IPv6', 'IPv7'],
+    correctAnswer: 1, // B
+    explanation: 'Giao thức IP có hai phiên bản chính được triển khai phổ biến là IPv4 và IPv6. IPv5 chỉ là giao thức thử nghiệm ST2, không phải phiên bản IP chính thức.',
+  },
+  {
+    id: 'B2_7',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 2: Giao thức mạng',
+    questionNumber: 7,
+    question: 'Hệ thống tên miền DNS có chức năng gì?',
+    options: [
+      'Chuyển đổi tên miền thành địa chỉ IP',
+      'Gửi và nhận thư điện tử',
+      'Chia dữ liệu thành gói tin',
+      'Đảm bảo độ tin cậy truyền dữ liệu'
+    ],
+    correctAnswer: 0, // A
+    explanation: 'Hệ thống DNS (Domain Name System) chuyển đổi tên miền dễ nhớ thành địa chỉ IP tương ứng, giúp người dùng truy cập trang web thuận tiện.',
+  },
+  {
+    id: 'B2_8',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 2: Giao thức mạng',
+    questionNumber: 8,
+    question: 'Tên miền cấp cao nhất (TLD) thường là gì?',
+    options: [
+      'Phần đuôi sau cùng của tên miền',
+      'Phần đầu của tên miền',
+      'Một phần của địa chỉ IP',
+      'Một loại giao thức mạng'
+    ],
+    correctAnswer: 0, // A
+    explanation: 'Tên miền cấp cao nhất (Top-Level Domain - TLD) là phần đuôi sau cùng của tên miền, ví dụ: .com, .org, .net, hoặc đuôi quốc gia như .vn, .us.',
+  },
+  {
+    id: 'B2_9',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 2: Giao thức mạng',
+    questionNumber: 9,
+    question: 'Tên miền cấp ba là gì?',
+    options: [
+      'Tên miền phụ của một tên miền cấp hai',
+      'Tên miền chính',
+      'Một phần của địa chỉ IP',
+      'Một loại giao thức mạng'
+    ],
+    correctAnswer: 0, // A
+    explanation: 'Tên miền cấp ba là phần mở rộng (subdomain) đứng trước tên miền cấp hai, thường phân tách nội dung cụ thể, ví dụ "mail" trong mail.google.com.',
+  },
+  {
+    id: 'B2_10',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 2: Giao thức mạng',
+    questionNumber: 10,
+    question: 'Giao thức HTTP được sử dụng để làm gì?',
+    options: [
+      'Truyền tải dữ liệu của các trang web',
+      'Quản lý và định tuyến gói tin trên mạng',
+      'Gửi và nhận thư điện tử',
+      'Chia dữ liệu thành các gói tin'
+    ],
+    correctAnswer: 0, // A
+    explanation: 'Giao thức HTTP (Hypertext Transfer Protocol) được sử dụng để truyền tải dữ liệu của các trang web và quy định cách giao tiếp giữa máy khách (client) và máy chủ (server).',
+  },
+
+  // ==========================================
+  // BÀI 2: GIAO THỨC MẠNG - ĐÚNG / SAI
+  // ==========================================
+  {
+    id: 'B2_TF1',
+    type: 'true_false',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 2: Giao thức mạng (Đúng / Sai)',
+    questionNumber: 1,
+    question: 'Đánh dấu đúng hay sai về khái niệm cơ bản của giao thức mạng?',
+    tfSubQuestions: [
+      {
+        id: 'a',
+        label: 'a)',
+        text: 'Giao thức mạng là tập hợp các quy tắc để điều khiển truyền thông và trao đổi dữ liệu giữa các thiết bị.',
+        isTrue: true,
+        explanation: 'Đúng: Giao thức mạng thiết lập các quy tắc cần thiết để đảm bảo truyền thông và trao đổi dữ liệu hiệu quả và an toàn.',
+      },
+      {
+        id: 'b',
+        label: 'b)',
+        text: 'Giao thức mạng chỉ tập trung vào định dạng và chuẩn hóa dữ liệu.',
+        isTrue: false,
+        explanation: 'Sai: Giao thức mạng không chỉ bao gồm định dạng dữ liệu mà còn quản lý lưu lượng, kiểm tra lỗi, bảo mật và đồng bộ hóa.',
+      },
+      {
+        id: 'c',
+        label: 'c)',
+        text: 'Giao thức mạng không liên quan đến bảo mật và độ tin cậy của dữ liệu.',
+        isTrue: false,
+        explanation: 'Sai: Bảo mật và độ tin cậy là chức năng quan trọng của giao thức mạng để bảo vệ tính toàn vẹn của dữ liệu.',
+      },
+      {
+        id: 'd',
+        label: 'd)',
+        text: 'Giao thức mạng bao gồm cả việc tích hợp các dịch vụ và ứng dụng.',
+        isTrue: true,
+        explanation: 'Đúng: Giao thức mạng cho phép các hệ thống và ứng dụng khác nhau có thể tương tác ăn khớp với nhau.',
+      },
+    ],
+  },
+  {
+    id: 'B2_TF2',
+    type: 'true_false',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 2: IP & DNS (Đúng / Sai)',
+    questionNumber: 2,
+    question: 'Đánh dấu đúng hoặc sai về giao thức IP và hệ thống tên miền?',
+    tfSubQuestions: [
+      {
+        id: 'a',
+        label: 'a)',
+        text: 'Giao thức IP quản lý và định tuyến gói tin trên mạng máy tính.',
+        isTrue: true,
+        explanation: 'Đúng: Giao thức IP chịu trách nhiệm định tuyến và chuyển tiếp các gói tin dựa trên địa chỉ IP đích.',
+      },
+      {
+        id: 'b',
+        label: 'b)',
+        text: 'Địa chỉ IP là số duy nhất được gán cho mỗi thiết bị trong mạng.',
+        isTrue: true,
+        explanation: 'Đúng: Mỗi thiết bị tham gia mạng Internet được cấp định danh duy nhất để giao tiếp.',
+      },
+      {
+        id: 'c',
+        label: 'c)',
+        text: 'DNS chỉ chuyển đổi tên miền thành địa chỉ IP và không có chức năng nào khác.',
+        isTrue: false,
+        explanation: 'Sai: Hệ thống DNS còn cung cấp quản lý phân giải mail server (MX record), alias (CNAME), định tuyến subdomain.',
+      },
+      {
+        id: 'd',
+        label: 'd)',
+        text: 'Tất cả các tên miền cấp ba phải luôn bắt đầu bằng "www"',
+        isTrue: false,
+        explanation: 'Sai: Tên miền cấp ba có thể là bất kỳ chuỗi hợp lệ nào, ví dụ: mail.google.com, vnexpress.net, api.github.com...',
+      },
+    ],
+  },
+
+  // ==========================================
+  // BÀI 2 (tt): GIAO THỨC MẠNG NÂNG CAO (Trắc nghiệm 13 câu)
+  // ==========================================
+  {
+    id: 'B2_TT_1',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 2 (tt): Giao thức mạng nâng cao',
+    questionNumber: 1,
+    question: 'Địa chỉ email nào sau đây là không hợp lệ?',
+    options: ['baochau1805@gmail.com.', 'ngoc anh2007@gmail.com.', 'nguyenthutrang_k68@vnu.edu.vn.', 'minhtuan@yahoo.com.vn.'],
+    correctAnswer: 1, // B
+    explanation: 'Địa chỉ email "ngoc anh2007@gmail.com" không hợp lệ vì chứa khoảng trắng (dấu cách), vi phạm chuẩn định dạng email.',
+  },
+  {
+    id: 'B2_TT_2',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 2 (tt): Giao thức mạng nâng cao',
+    questionNumber: 2,
+    question: 'Các quy định liên quan đến gửi thư có tên là gì?',
+    options: ['Giao thức IMAP.', 'Giao thức MQTT.', 'Giao thức SMTP.', 'Giao thức POP3.'],
+    correctAnswer: 2, // C
+    explanation: 'Giao thức SMTP (Simple Mail Transfer Protocol) chuyên dùng để gửi thư điện tử. POP3 và IMAP dùng để nhận/lấy thư.',
+  },
+  {
+    id: 'B2_TT_3',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 2 (tt): Giao thức mạng nâng cao',
+    questionNumber: 3,
+    question: 'Nhóm địa chỉ IP 172.18.*.* có cổng',
+    options: ['1.', '2.', '3.', '4.'],
+    correctAnswer: 1, // B
+    explanation: 'Địa chỉ mạng thuộc dải 172.18.0.0 thuộc Lớp B (Class B) với mặt nạ mặc định 16 bit, gồm 2 octet mạng và 2 octet máy chủ (host).',
+  },
+  {
+    id: 'B2_TT_4',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 2 (tt): Giao thức mạng nâng cao',
+    questionNumber: 4,
+    question: 'Hiện nay có những loại địa chỉ IP nào?',
+    options: ['IPv4 và IPv6.', 'IPv2 và IPv4.', 'IPv4 và IPv5.', 'IPv1 và IPv3.'],
+    correctAnswer: 0, // A
+    explanation: 'Hai phiên bản địa chỉ IP được sử dụng chính thức trên toàn cầu hiện nay là IPv4 (32-bit) và IPv6 (128-bit).',
+  },
+  {
+    id: 'B2_TT_5',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 2 (tt): Giao thức mạng nâng cao',
+    questionNumber: 5,
+    question: 'Địa chỉ máy chủ của Bộ Giáo dục và Đào tạo có thể thay thế bằng',
+    options: ['moet.edu.com.', 'edu.com.vn.', 'moet.edu.vn.', 'edu.moet.vn'],
+    correctAnswer: 2, // C
+    explanation: 'Tên miền chính thức của Bộ Giáo dục và Đào tạo Việt Nam là moet.edu.vn (trong đó .edu là giáo dục, .vn là Việt Nam).',
+  },
+  {
+    id: 'B2_TT_6',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 2 (tt): Giao thức mạng nâng cao',
+    questionNumber: 6,
+    question: 'Việc trao đổi dữ liệu giữa các máy tính trong mạng cục bộ tuân thủ theo giao thức nào?',
+    options: ['Giao thức HTTPS.', 'Giao thức TCP/IP.', 'Giao thức DNS.', 'Giao thức Ethernet.'],
+    correctAnswer: 3, // D
+    explanation: 'Trong mạng cục bộ (LAN có dây), chuẩn truyền thông dữ liệu cơ sở ở tầng liên kết dữ liệu là giao thức Ethernet.',
+  },
+  {
+    id: 'B2_TT_7',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 2 (tt): Giao thức mạng nâng cao',
+    questionNumber: 7,
+    question: 'Việc truyền dữ liệu trong mạng cục bộ sẽ căn cứ vào địa chỉ gì?',
+    options: ['Địa chỉ IP.', 'Địa chỉ MAC.', 'Địa chỉ LAN.', 'Địa chỉ Server.'],
+    correctAnswer: 1, // B
+    explanation: 'Trong cùng một mạng cục bộ (LAN), switch chuyển mạch khung dữ liệu trực tiếp dựa vào địa chỉ vật lý MAC của card mạng.',
+  },
+  {
+    id: 'B2_TT_8',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 2 (tt): Giao thức mạng nâng cao',
+    questionNumber: 8,
+    question: 'Phát biểu nào sau đây sai?',
+    options: [
+      'Theo phương pháp định tuyến tĩnh, mỗi router có một bảng định tuyến.',
+      'Giao thức TCP đảm bảo việc truyền dữ liệu theo từng ứng dụng một cách chính xác, tin cậy và hiệu quả.',
+      'MAC là địa chỉ vật lí của máy tính.',
+      'Giao thức IP đảm bảo chuyển dữ liệu từ mạng này đến mạng kia và chuyển dữ liệu đến một ứng dụng cụ thể trên một máy cụ thể.'
+    ],
+    correctAnswer: 3, // D
+    explanation: 'Phát biểu D sai vì giao thức IP chỉ chịu trách nhiệm chuyển gói tin từ máy gửi đến máy nhận (host-to-host). Việc chuyển đến ứng dụng cụ thể (port) là trách nhiệm của giao thức tầng Giao vận (TCP/UDP).',
+  },
+  {
+    id: 'B2_TT_9',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 2 (tt): Giao thức mạng nâng cao',
+    questionNumber: 9,
+    question: 'Giao thức quy định cách biểu diễn (mã hoá) các trang web là',
+    options: ['SNMP.', 'DNS.', 'HTTP.', 'DHCP.'],
+    correctAnswer: 2, // C
+    explanation: 'Giao thức HTTP (hoặc HTTPS) quy định phương thức truyền tải và biểu diễn thông điệp trang web giữa trình duyệt và máy chủ web.',
+  },
+  {
+    id: 'B2_TT_10',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 2 (tt): Giao thức mạng nâng cao',
+    questionNumber: 10,
+    question: 'Lệnh nào của giao thức ICMP (Internet Control Message Protocol) giúp kiểm tra máy tính có kết nối được với một máy tính hay một thiết bị mạng hay không?',
+    options: ['touch.', 'mkdir.', 'ping.', 'tracert.'],
+    correctAnswer: 2, // C
+    explanation: 'Lệnh "ping" gửi các gói tin ICMP Echo Request để kiểm tra độ trễ và khả năng thông suốt kết nối giữa 2 thiết bị mạng.',
+  },
+  {
+    id: 'B2_TT_11',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 2 (tt): Giao thức mạng nâng cao',
+    questionNumber: 11,
+    question: 'Địa chỉ IP 11001011 10100010 00101001 11111110 dưới dạng thập phân là',
+    options: ['203.162.41.254.', '230.178.52.166.', '203.126.71.235.', '235.197.80.255.'],
+    correctAnswer: 0, // A
+    explanation: 'Chuyển đổi từng byte nhị phân sang thập phân: 11001011 = 128+64+8+2+1 = 203; 10100010 = 128+32+2 = 162; 00101001 = 32+8+1 = 41; 11111110 = 254. Kết quả là 203.162.41.254.',
+  },
+  {
+    id: 'B2_TT_12',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 2 (tt): Giao thức mạng nâng cao',
+    questionNumber: 12,
+    question: 'Lệnh dùng để kiểm tra cấu hình IP của máy tính đang sử dụng là',
+    options: ['systeminfo.', 'taskkill.', 'driverquery.', 'ipconfig.'],
+    correctAnswer: 3, // D
+    explanation: 'Trong hệ điều hành Windows, lệnh "ipconfig" (hoặc ipconfig /all) hiển thị địa chỉ IPv4, IPv6, Subnet Mask và Default Gateway của các card mạng.',
+  },
+  {
+    id: 'B2_TT_13',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 2 (tt): Giao thức mạng nâng cao',
+    questionNumber: 13,
+    question: 'Giao thức mạng nào hỗ trợ lấy địa chỉ MAC theo địa chỉ IP?',
+    options: ['DDS.', 'ICMP.', 'ARP.', 'BGP.'],
+    correctAnswer: 2, // C
+    explanation: 'Giao thức ARP (Address Resolution Protocol) dùng để ánh xạ, tìm địa chỉ MAC vật lý tương ứng với địa chỉ logic IP đã biết.',
+  },
+
+  // ==========================================
+  // BÀI 2 (tt): ĐÚNG / SAI (2 CÂU)
+  // ==========================================
+  {
+    id: 'B2_TT_TF1',
+    type: 'true_false',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 2 (tt): Giao thức IP và TCP (Đúng / Sai)',
+    questionNumber: 1,
+    question: 'Hai giao thức IP và TCP xác định cách thức kết nối và trao đổi dữ liệu có tính đặc thù của Internet.',
+    tfSubQuestions: [
+      {
+        id: 'a',
+        label: 'a)',
+        text: 'Địa chỉ IP giống với địa chỉ MAC.',
+        isTrue: false,
+        explanation: 'Sai: IP là địa chỉ logic do mạng cấp (32 bit hoặc 128 bit), còn MAC là địa chỉ vật lý cố định ghi trong chip card mạng (48 bit).',
+      },
+      {
+        id: 'b',
+        label: 'b)',
+        text: 'Mỗi địa chỉ IP là một số 4 bit.',
+        isTrue: false,
+        explanation: 'Sai: Địa chỉ IPv4 là số 32 bit (gồm 4 byte/octet), IPv6 là 128 bit, không phải 4 bit.',
+      },
+      {
+        id: 'c',
+        label: 'c)',
+        text: 'Giao thức TCP chỉ đảm bảo chuyển dữ liệu từ mạng này đến mạng kia mà không đảm bảo chuyển dữ liệu đến một ứng dụng cụ thể trên một máy cụ thể.',
+        isTrue: false,
+        explanation: 'Sai: TCP sử dụng số hiệu cổng (Port) để phân phát dữ liệu chính xác tới từng tiến trình ứng dụng cụ thể trên máy tính.',
+      },
+      {
+        id: 'd',
+        label: 'd)',
+        text: 'Việc tách dữ liệu thành nhiều gói cho phép nhiều cuộc truyền khác nhau có thể được thực hiện xen kẽ nhau trên cùng một đường truyền vật lí giúp tận dụng được đường truyền.',
+        isTrue: true,
+        explanation: 'Đúng: Kỹ thuật chuyển mạch gói (packet switching) cho phép chia sẻ đường truyền chung rất hiệu quả.',
+      },
+    ],
+  },
+  {
+    id: 'B2_TT_TF2',
+    type: 'true_false',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 2 (tt): Hoạt động truyền thông (Đúng / Sai)',
+    questionNumber: 2,
+    question: 'Tất cả các hoạt động truyền thông trên mạng đều cần có giao thức giúp việc gửi, nhận dữ liệu chính xác, tin cậy và hiệu quả.',
+    tfSubQuestions: [
+      {
+        id: 'a',
+        label: 'a)',
+        text: 'Giao thức mạng còn được gọi là giao thức truyền thông.',
+        isTrue: true,
+        explanation: 'Đúng: Thuật ngữ giao thức mạng và giao thức truyền thông (communication protocol) thường được dùng đồng nghĩa.',
+      },
+      {
+        id: 'b',
+        label: 'b)',
+        text: 'DNS là giao thức truyền tải siêu văn bản.',
+        isTrue: false,
+        explanation: 'Sai: HTTP/HTTPS mới là giao thức truyền tải siêu văn bản, DNS là hệ thống phân giải tên miền thành địa chỉ IP.',
+      },
+      {
+        id: 'c',
+        label: 'c)',
+        text: 'Các gói tin gửi đi trên Internet luôn phải được gán địa chỉ IP của máy tính gửi và máy tính nhận.',
+        isTrue: true,
+        explanation: 'Đúng: Tiêu đề gói tin IP luôn chứa địa chỉ IP nguồn (Source IP) và IP đích (Destination IP).',
+      },
+      {
+        id: 'd',
+        label: 'd)',
+        text: 'Giao thức TCP quy định cách thiết lập địa chỉ cho các thiết bị tham gia mạng và cách dẫn đường các gói dữ liệu theo địa chỉ từ thiết bị gửi đến thiết bị nhận.',
+        isTrue: false,
+        explanation: 'Sai: Đó là vai trò của giao thức IP (Internet Protocol), không phải TCP.',
+      },
+    ],
+  },
+
+  // ==========================================
+  // BÀI 3: THỰC HÀNH THIẾT LẬP KẾT NỐI VÀ SỬ DỤNG MẠNG (10 câu)
+  // ==========================================
+  {
+    id: 'B3_1',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 3: Thực hành kết nối mạng',
+    questionNumber: 1,
+    question: 'Khi kết nối máy tính với Access Point trên Windows 10, bước đầu tiên bạn cần làm gì?',
+    options: ['Kiểm tra địa chỉ IP', 'Nhập mật khẩu mạng Wi-Fi', 'Chọn tên mạng Wi-Fi', 'Mở trình duyệt web'],
+    correctAnswer: 2, // C
+    explanation: 'Trên Windows 10, bước đầu tiên để kết nối với Access Point là mở danh sách mạng Wi-Fi và chọn tên mạng (SSID) cần kết nối.',
+  },
+  {
+    id: 'B3_2',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 3: Thực hành kết nối mạng',
+    questionNumber: 2,
+    question: 'Khi kết nối máy tính với Switch, dấu hiệu nào cho thấy kết nối vật lý đã thành công?',
+    options: ['Đèn báo hiệu trên cổng sáng', 'Máy tính khởi động lại', 'Địa chỉ IP thay đổi', 'Tự động mở trình duyệt web'],
+    correctAnswer: 0, // A
+    explanation: 'Khi cắm đầu cáp mạng RJ45 vào cổng LAN của máy tính và Switch, đèn LED chỉ báo trạng thái trên cổng sáng/nhấp nháy báo hiệu kết nối vật lý đã thông.',
+  },
+  {
+    id: 'B3_3',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 3: Thực hành kết nối mạng',
+    questionNumber: 3,
+    question: 'Để kết nối điện thoại thông minh vào Access Point, bạn cần thực hiện bước nào sau đây đầu tiên?',
+    options: ['Mở trình duyệt web', 'Chọn mạng cần kết nối', 'Bật Wi-Fi trong cài đặt', 'Nhập mật khẩu mạng'],
+    correctAnswer: 2, // C
+    explanation: 'Để kết nối điện thoại thông minh vào Access Point, bước đầu tiên là bật tính năng Wi-Fi trong menu Cài đặt.',
+  },
+  {
+    id: 'B3_4',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 3: Thực hành kết nối mạng',
+    questionNumber: 4,
+    question: 'Khi chia sẻ dữ liệu từ PC-A, để cấp quyền truy cập cho mọi người, bạn cần chọn quyền nào trong hộp thoại Permissions for D?',
+    options: ['Full Control', 'Read Only', 'Change', 'Write'],
+    correctAnswer: 0, // A
+    explanation: 'Để mọi người có toàn quyền đọc, ghi, chỉnh sửa và xóa tài nguyên được chia sẻ, ta chọn cấp quyền "Full Control".',
+  },
+  {
+    id: 'B3_5',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 3: Thực hành kết nối mạng',
+    questionNumber: 5,
+    question: 'Bước đầu tiên để kết nối PC-B với máy in được chia sẻ từ PC-A là gì?',
+    options: ['Mở Control Panel trên PC-B', 'Tìm kiếm máy in bằng tên', 'In thử một trang tài liệu', 'Chọn Add a printer'],
+    correctAnswer: 0, // A
+    explanation: 'Để kết nối máy in dùng chung, bước đầu tiên trên PC-B là mở Control Panel rồi truy cập Devices and Printers.',
+  },
+  {
+    id: 'B3_6',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 3: Thực hành kết nối mạng',
+    questionNumber: 6,
+    question: 'Để kiểm tra kết nối mạng sau khi kết nối với Access Point, bạn nên làm gì?',
+    options: ['Kiểm tra đèn báo hiệu trên Access Point', 'Kiểm tra địa chỉ IP', 'Mở trình duyệt web và truy cập vào trang web bất kỳ', 'Kiểm tra cài đặt mạng'],
+    correctAnswer: 2, // C
+    explanation: 'Sau khi kết nối Wi-Fi, mở trình duyệt web và tải thử một trang web bất kỳ là phương pháp trực quan, nhanh nhất để kiểm tra đường truyền Internet.',
+  },
+  {
+    id: 'B3_7',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 3: Thực hành kết nối mạng',
+    questionNumber: 7,
+    question: 'Khi kết nối máy tính với Switch, loại cáp nào được sử dụng?',
+    options: ['Cáp USB', 'Cáp HDMI', 'Cáp mạng RJ45', 'Cáp quang'],
+    correctAnswer: 2, // C
+    explanation: 'Cáp mạng xoắn đôi với đầu nối chuẩn RJ45 được sử dụng phổ biến nhất để nối máy tính vào cổng Switch trong mạng nội bộ.',
+  },
+  {
+    id: 'B3_8',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 3: Thực hành kết nối mạng',
+    questionNumber: 8,
+    question: 'Trong quá trình chia sẻ máy in, bạn cần làm gì trên PC-A để máy in có thể được chia sẻ?',
+    options: ['Chọn Add a printer', 'Chọn máy in từ danh sách có sẵn', 'Đặt tên chia sẻ máy in', 'Tìm kiếm máy in'],
+    correctAnswer: 2, // C
+    explanation: 'Trong phần Printer Properties > Sharing trên PC-A, cần tích chọn "Share this printer" và đặt tên chia sẻ (Share name) cho máy in.',
+  },
+  {
+    id: 'B3_9',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 3: Thực hành kết nối mạng',
+    questionNumber: 9,
+    question: 'Để xem chi tiết kết nối mạng trên Windows 10, bạn cần làm gì?',
+    options: ['Mở Control Panel', 'Mở trình duyệt web', 'Kiểm tra địa chỉ IP', 'Chọn Network & Internet settings'],
+    correctAnswer: 3, // D
+    explanation: 'Để xem chi tiết các thông số kết nối mạng trên Windows 10, người dùng chọn mục "Network & Internet settings" trong Cài đặt (Settings).',
+  },
+  {
+    id: 'B3_10',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 3: Thực hành kết nối mạng',
+    questionNumber: 10,
+    question: 'Để kết nối điện thoại thông minh vào mạng di động, bạn cần làm gì?',
+    options: ['Bật Wi-Fi', 'Tắt Wi-Fi', 'Bật Dữ liệu di động', 'Kết nối với Access Point'],
+    correctAnswer: 2, // C
+    explanation: 'Để sử dụng Internet thông qua sóng di động (4G/5G) trên điện thoại, người dùng cần bật tính năng "Dữ liệu di động" (Cellular Data).',
+  },
+
+  // ==========================================
+  // BÀI 3: THỰC HÀNH - ĐÚNG / SAI
+  // ==========================================
+  {
+    id: 'B3_TF1',
+    type: 'true_false',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 3: Thực hành kết nối Switch (Đúng / Sai)',
+    questionNumber: 1,
+    question: 'Trong quá trình kết nối máy tính với Switch, các bước sau đây có chính xác không? Chọn đúng hoặc sai?',
+    tfSubQuestions: [
+      {
+        id: 'a',
+        label: 'a)',
+        text: 'Sử dụng cáp mạng RJ45 để kết nối.',
+        isTrue: true,
+        explanation: 'Đúng. Cáp mạng chuẩn RJ45 là loại cáp chuẩn để nối card mạng máy tính với cổng của Switch.',
+      },
+      {
+        id: 'b',
+        label: 'b)',
+        text: 'Cắm dây vào cổng USB trên máy tính và Switch.',
+        isTrue: false,
+        explanation: 'Sai. Cáp mạng cắm vào cổng LAN (RJ45), không cắm vào cổng USB.',
+      },
+      {
+        id: 'c',
+        label: 'c)',
+        text: 'Kiểm tra đèn báo hiệu trên cổng để xác nhận kết nối vật lý.',
+        isTrue: true,
+        explanation: 'Đúng. Đèn LED trên cổng sáng biểu thị tín hiệu đường truyền vật lý đã thông.',
+      },
+      {
+        id: 'd',
+        label: 'd)',
+        text: 'Kiểm tra kết nối mạng bằng cách mở trình duyệt web.',
+        isTrue: true,
+        explanation: 'Đúng. Mở trình duyệt truy cập web là phương pháp kiểm tra thực tế xem đã có Internet chưa.',
+      },
+    ],
+  },
+  {
+    id: 'B3_TF2',
+    type: 'true_false',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 3: Chia sẻ thư mục LAN (Đúng / Sai)',
+    questionNumber: 2,
+    question: 'Trong quá trình chia sẻ dữ liệu từ máy tính PC-A trên cùng mạng LAN, các bước sau đây có đúng không? Chọn đúng hoặc sai?',
+    tfSubQuestions: [
+      {
+        id: 'a',
+        label: 'a)',
+        text: 'Chọn ổ cứng chứa dữ liệu, sau đó chọn Properties.',
+        isTrue: true,
+        explanation: 'Đúng. Để cấu hình chia sẻ, người dùng nhấp chuột phải vào thư mục/ổ đĩa và chọn Properties.',
+      },
+      {
+        id: 'b',
+        label: 'b)',
+        text: 'Vào tab Sharing và chọn Advanced Sharing.',
+        isTrue: true,
+        explanation: 'Đúng. Tab Sharing > Advanced Sharing cho phép cài đặt các tùy chọn phân quyền chi tiết.',
+      },
+      {
+        id: 'c',
+        label: 'c)',
+        text: 'Tích vào ô Share this folder và chọn Permissions.',
+        isTrue: true,
+        explanation: 'Đúng. Cần tích chọn Share this folder và mở hộp thoại Permissions để cấp quyền truy cập.',
+      },
+      {
+        id: 'd',
+        label: 'd)',
+        text: 'Đặt tên chia sẻ cho ổ cứng.',
+        isTrue: false,
+        explanation: 'Sai. Theo đề cương, tên chia sẻ được đặt cho thư mục hoặc máy in dùng chung, thông thường không chia sẻ toàn bộ ổ cứng để đảm bảo an toàn.',
+      },
+    ],
+  },
+
+  // ==========================================
+  // ÔN TẬP MẠNG MÁY TÍNH (13 CÂU PHÂN MỨC ĐỘ)
+  // ==========================================
+  {
+    id: 'B_NB_1',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Ôn tập: Nhận biết',
+    questionNumber: 1,
+    question: 'Điểm khác nhau của switch và hub là gì?',
+    options: ['Hình dạng.', 'Số cổng.', 'Cách thức hoạt động.', 'Màu sắc.'],
+    correctAnswer: 2, // C
+    explanation: 'Hub phát tán tín hiệu tới tất cả các cổng (broadcast), trong khi Switch đọc địa chỉ MAC và chỉ chuyển tiếp dữ liệu chính xác tới cổng của thiết bị nhận.',
+  },
+  {
+    id: 'B_NB_2',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Ôn tập: Nhận biết',
+    questionNumber: 2,
+    question: 'Mạng cục bộ còn được gọi là',
+    options: ['mạng WAN.', 'mạng PAN.', 'mạng MAN.', 'mạng LAN.'],
+    correctAnswer: 3, // D
+    explanation: 'Mạng cục bộ trong tiếng Anh là Local Area Network, viết tắt là LAN.',
+  },
+  {
+    id: 'B_NB_3',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Ôn tập: Nhận biết',
+    questionNumber: 3,
+    question: 'Router là gì?',
+    options: ['Bộ chuyển mạch.', 'Bộ thu phát không dây.', 'Bộ định tuyến.', 'Bộ chia tín hiệu.'],
+    correctAnswer: 2, // C
+    explanation: 'Router dịch sang tiếng Việt là Bộ định tuyến, có chức năng tìm đường đi tối ưu cho gói tin giữa các mạng khác nhau.',
+  },
+  {
+    id: 'B_NB_4',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Ôn tập: Nhận biết',
+    questionNumber: 4,
+    question: 'Wi-Fi sử dụng loại sóng nào để truyền dữ liệu?',
+    options: ['Sóng điện từ.', 'Sóng vô tuyến điện.', 'Sóng ánh sáng.', 'Sóng mang.'],
+    correctAnswer: 1, // B
+    explanation: 'Wi-Fi sử dụng sóng vô tuyến điện (radio waves, tần số 2.4 GHz, 5 GHz hoặc 6 GHz) để truyền và nhận dữ liệu không dây.',
+  },
+  {
+    id: 'B_NB_5',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Ôn tập: Nhận biết',
+    questionNumber: 5,
+    question: 'Trên mỗi router, cổng để kết nối với các router khác gọi là gì?',
+    options: ['Cổng WAP.', 'Cổng WAN.', 'Cổng LAN.', 'Cổng AP.'],
+    correctAnswer: 1, // B
+    explanation: 'Cổng WAN (Wide Area Network) trên Router dùng để kết nối với mạng bên ngoài hoặc router của nhà cung cấp dịch vụ Internet.',
+  },
+  {
+    id: 'B_NB_6',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Ôn tập: Nhận biết',
+    questionNumber: 6,
+    question: 'Loại modem nào cho phép nối hai máy tính qua hệ thống chuyển mạch của mạng điện thoại công cộng?',
+    options: ['Modem quay số.', 'Modem GSM 3G, 4G, 5G,…', 'Modem ADSL.', 'Modem quang.'],
+    correctAnswer: 0, // A
+    explanation: 'Modem quay số (Dial-up modem) kết nối dữ liệu máy tính qua mạng điện thoại cố định truyền thống (PSTN).',
+  },
+  {
+    id: 'B_TH_1',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Ôn tập: Thông hiểu',
+    questionNumber: 7,
+    question: 'Thiết bị nào xác định cổng kết nối giữa thiết bị gửi và thiết bị nhận, sau đó thiết lập tạm thời kênh truyền giữa hai cổng kết nối để truyền dữ liệu và huỷ kết nối sau khi hoàn thành việc truyền?',
+    options: ['Switch.', 'Router.', 'Hub.', 'Modem.'],
+    correctAnswer: 0, // A
+    explanation: 'Switch hoạt động theo cơ chế chuyển mạch vi mô: xác định địa chỉ MAC của cổng gửi và nhận, tạo kênh kết nối vi mô truyền dữ liệu rồi giải phóng kênh.',
+  },
+  {
+    id: 'B_TH_2',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Ôn tập: Thông hiểu',
+    questionNumber: 8,
+    question: 'Phát biểu nào sau đây đúng?',
+    options: [
+      'Mạng viễn thông sử dụng các modem để chuyển tiếp dữ liệu.',
+      'Thông thường LAN kết nối có dây các máy tính qua các thiết bị như switch hay hub trong một phạm vi địa lí nhất định.',
+      'Khi dùng hub thì tín hiệu đi từ máy gửi đến máy nhận sẽ không gây xung đột với tín hiệu của các cuộc truyền ở cổng khác.',
+      'Switch có chi phí rẻ hơn rất nhiều so với một hub có cùng số cổng.'
+    ],
+    correctAnswer: 1, // B
+    explanation: 'Thông thường mạng LAN kết nối có dây các máy tính thông qua Switch hoặc Hub trong phạm vi địa lý nhỏ (văn phòng, trường học).',
+  },
+  {
+    id: 'B_TH_3',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Ôn tập: Thông hiểu',
+    questionNumber: 9,
+    question: 'Khi kết nối hai máy tính (có thể cách xa hàng nghìn kilômét) qua Internet, người ta sử dụng thiết bị nào để kết nối các LAN với nhau?',
+    options: ['Hub.', 'Wireless Access Point.', 'Switch.', 'Router.'],
+    correctAnswer: 3, // D
+    explanation: 'Router (bộ định tuyến) là thiết bị kết nối các mạng LAN khác nhau qua Internet bất kể khoảng cách địa lý xa xôi.',
+  },
+  {
+    id: 'B_TH_4',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Ôn tập: Thông hiểu',
+    questionNumber: 10,
+    question: 'Wireless Access Point (WAP) có chức năng gì?',
+    options: [
+      'Chuyển đổi tín hiệu từ tín hiệu số sang tín hiệu tương tự và ngược lại, thường dùng khi kết nối LAN với Internet.',
+      'Dùng để kết nối các máy tính trong cùng LAN trực tiếp qua cáp mạng.',
+      'Dùng để kết nối các thiết bị đầu cuối qua sóng Wi-Fi giúp giảm chi phí thiết lập LAN hoặc kết nối với một LAN để mở rộng phạm vi làm việc.',
+      'Dùng để dẫn đường cho dữ liệu khi kết nối trên mạng diện rộng như Internet.'
+    ],
+    correctAnswer: 2, // C
+    explanation: 'Wireless Access Point (WAP) kết nối các thiết bị di động bằng sóng Wi-Fi vào mạng LAN có dây, mở rộng vùng phủ sóng và giảm chi phí đi dây.',
+  },
+  {
+    id: 'B_VD_1',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Ôn tập: Vận dụng',
+    questionNumber: 11,
+    question: 'Các LAN thường dùng loại cáp mạng nào?',
+    options: ['FTP.', 'STP.', 'ETP.', 'UTP.'],
+    correctAnswer: 3, // D
+    explanation: 'Cáp UTP (Unshielded Twisted Pair - cáp xoắn đôi không vỏ bọc chống nhiễu, như Cat5e, Cat6) là loại cáp phổ biến và kinh tế nhất trong mạng LAN.',
+  },
+  {
+    id: 'B_VD_2',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Ôn tập: Vận dụng',
+    questionNumber: 12,
+    question: 'Khi kết nối máy tính với các thiết bị mạng, cần cắm một đầu giắc của cáp vào cổng nào của máy tính?',
+    options: ['RJ45.', 'VJ45.', 'CJ45.', 'PJ45.'],
+    correctAnswer: 0, // A
+    explanation: 'Cổng cắm mạng tiêu chuẩn trên máy tính để bàn và laptop là cổng Ethernet chuẩn RJ45.',
+  },
+  {
+    id: 'B_VDC_1',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Ôn tập: Vận dụng cao',
+    questionNumber: 13,
+    question: 'Phát biểu nào sau đây sai?',
+    options: [
+      'Switch dùng để kết nối các đoạn mạng với nhau theo mô hình hình sao.',
+      'Hiện nay có hai loại Hub phổ biến là Active Hub và Smart Hub.',
+      'Router là một thiết bị mạng thuộc lớp 2 của mô hình OSI (Network Layer).',
+      'Modem có chức năng chuyển hoá các gói dữ liệu từ nhà cung cấp dịch vụ mạng (ISP) thành các kết nối Internet cho các router hoặc các thiết bị liên kết mạng khác qua địa chỉ IP.'
+    ],
+    correctAnswer: 2, // C
+    explanation: 'Phát biểu C sai vì Router là thiết bị hoạt động ở Lớp 3 (Network Layer) của mô hình OSI. Thiết bị lớp 2 là Switch (Data Link Layer).',
+  },
+
+  // ==========================================
+  // CHỦ ĐỀ D: ĐẠO ĐỨC, PHÁP LUẬT VÀ VĂN HOÁ TRONG MÔI TRƯỜNG SỐ
+  // ==========================================
+  {
+    id: 'D1_1',
+    type: 'single_choice',
+    topic: 'Chủ đề D: Đạo đức, Pháp luật & Văn hoá số',
+    section: 'Bài 1: Giao tiếp qua không gian mạng',
+    questionNumber: 1,
+    question: 'Ưu điểm nào sau đây không phải của giao tiếp qua không gian mạng?',
+    options: [
+      'Linh hoạt về thời gian và địa điểm',
+      'Dễ dàng lưu trữ thông tin trao đổi',
+      'Hiểu rõ hơn về ngôn ngữ cơ thể của người khác',
+      'Có thể đồng thời tham gia nhiều người'
+    ],
+    correctAnswer: 2, // C
+    explanation: 'Giao tiếp qua không gian mạng thường thiếu các tín hiệu ngôn ngữ cơ thể và cảm xúc trực tiếp, do đó không thể giúp hiểu rõ hơn ngôn ngữ cơ thể như khi gặp trực tiếp.',
+  },
+  {
+    id: 'D1_2',
+    type: 'single_choice',
+    topic: 'Chủ đề D: Đạo đức, Pháp luật & Văn hoá số',
+    section: 'Bài 1: Giao tiếp qua không gian mạng',
+    questionNumber: 2,
+    question: 'Giao tiếp qua không gian mạng có thể đồng bộ hoặc không đồng bộ. Giao tiếp đồng bộ có nghĩa là gì?',
+    options: [
+      'Hai bên trao đổi ngay lập tức',
+      'Tin nhắn được lưu trữ để tham khảo sau này',
+      'Thông tin không được đáp lại ngay lập tức',
+      'Giao tiếp không qua mạng'
+    ],
+    correctAnswer: 0, // A
+    explanation: 'Giao tiếp đồng bộ xảy ra trong thời gian thực khi hai bên có thể trao đổi, tương tác ngay lập tức (như gọi thoại, chat trực tiếp, hội nghị truyền hình).',
+  },
+  {
+    id: 'D1_3',
+    type: 'single_choice',
+    topic: 'Chủ đề D: Đạo đức, Pháp luật & Văn hoá số',
+    section: 'Bài 1: Giao tiếp qua không gian mạng',
+    questionNumber: 3,
+    question: 'Vấn đề tiềm ẩn nào sau đây không liên quan đến giao tiếp qua không gian mạng?',
+    options: [
+      'Hiểu lầm trong giao tiếp văn bản',
+      'Nguy cơ nghiện Internet',
+      'Tăng cường kỹ năng viết',
+      'Nguy cơ bị rình rập, quấy rối'
+    ],
+    correctAnswer: 2, // C
+    explanation: 'Giao tiếp qua mạng bằng tiếng lóng, viết tắt hoặc lười diễn đạt thường làm suy giảm kỹ năng viết chuẩn mực, chứ không phải tăng cường kỹ năng viết.',
+  },
+  {
+    id: 'D1_4',
+    type: 'single_choice',
+    topic: 'Chủ đề D: Đạo đức, Pháp luật & Văn hoá số',
+    section: 'Bài 1: Giao tiếp qua không gian mạng',
+    questionNumber: 4,
+    question: 'Một trong những nguyên tắc của ứng xử nhân văn trên không gian mạng là gì?',
+    options: [
+      'Mạo danh người khác',
+      'Phản đối hành vi tiêu cực trực tuyến',
+      'Tham gia vào các hoạt động gian lận',
+      'Sử dụng ngôn từ thiếu văn minh'
+    ],
+    correctAnswer: 1, // B
+    explanation: 'Ứng xử nhân văn bao gồm việc lên tiếng phản đối và không đồng tình, không dung túng cho các hành vi tiêu cực trực tuyến.',
+  },
+  {
+    id: 'D1_5',
+    type: 'single_choice',
+    topic: 'Chủ đề D: Đạo đức, Pháp luật & Văn hoá số',
+    section: 'Bài 1: Giao tiếp qua không gian mạng',
+    questionNumber: 5,
+    question: 'Lợi ích của giao tiếp qua không gian mạng cho người khiếm khuyết là gì?',
+    options: [
+      'Giao tiếp mà không cần sự hỗ trợ của người khác',
+      'Dễ dàng bị lừa đảo trực tuyến',
+      'Mất đi sự tự tin khi giao tiếp',
+      'Không có lợi ích đặc biệt'
+    ],
+    correctAnswer: 0, // A
+    explanation: 'Giao tiếp qua không gian mạng cung cấp một nền tảng hỗ trợ người khiếm khuyết (thông qua đọc màn hình, chuyển giọng nói thành văn bản) giao tiếp chủ động, độc lập.',
+  },
+  {
+    id: 'D1_6',
+    type: 'single_choice',
+    topic: 'Chủ đề D: Đạo đức, Pháp luật & Văn hoá số',
+    section: 'Bài 1: Giao tiếp qua không gian mạng',
+    questionNumber: 6,
+    question: 'Giao tiếp không đồng bộ có nghĩa là gì?',
+    options: [
+      'Trao đổi trong thời gian thực',
+      'Tin nhắn có thể không được đáp lại ngay lập tức',
+      'Sử dụng các biểu tượng cảm xúc',
+      'Giao tiếp không qua mạng'
+    ],
+    correctAnswer: 1, // B
+    explanation: 'Giao tiếp không đồng bộ là khi tin nhắn hay email được gửi đi mà không cần người nhận phải phản hồi tức thì.',
+  },
+  {
+    id: 'D1_7',
+    type: 'single_choice',
+    topic: 'Chủ đề D: Đạo đức, Pháp luật & Văn hoá số',
+    section: 'Bài 1: Giao tiếp qua không gian mạng',
+    questionNumber: 7,
+    question: 'Một trong những vấn đề tiềm ẩn của giao tiếp qua không gian mạng là gì?',
+    options: [
+      'Dễ dàng hiểu rõ hơn về cảm xúc của người khác',
+      'Tăng cường khả năng sử dụng từ viết tắt',
+      'Nguy cơ bị rình rập, quấy rối',
+      'Không có nguy cơ nào'
+    ],
+    correctAnswer: 2, // C
+    explanation: 'Một trong những vấn đề tiềm ẩn nghiêm trọng của giao tiếp qua không gian mạng là nguy cơ bị theo dõi, rình rập (cyberstalking) và quấy rối trực tuyến.',
+  },
+  {
+    id: 'D1_8',
+    type: 'single_choice',
+    topic: 'Chủ đề D: Đạo đức, Pháp luật & Văn hoá số',
+    section: 'Bài 1: Giao tiếp qua không gian mạng',
+    questionNumber: 8,
+    question: 'Tại sao cần thận trọng khi giao tiếp trên không gian mạng?',
+    options: [
+      'Để tránh mất thời gian',
+      'Để tránh bị lợi dụng hoặc tham gia vào các hoạt động gian lận',
+      'Để dễ dàng hiểu lầm người khác',
+      'Để giảm kỹ năng giao tiếp'
+    ],
+    correctAnswer: 1, // B
+    explanation: 'Cần thận trọng để bảo vệ bản thân không bị kẻ xấu lừa đảo, lạm dụng dữ liệu cá nhân hoặc lôi kéo vào các hành vi vi phạm pháp luật.',
+  },
+  {
+    id: 'D1_9',
+    type: 'single_choice',
+    topic: 'Chủ đề D: Đạo đức, Pháp luật & Văn hoá số',
+    section: 'Bài 1: Giao tiếp qua không gian mạng',
+    questionNumber: 9,
+    question: 'Một trong những lợi ích của lưu trữ thông tin trao đổi qua không gian mạng là gì?',
+    options: [
+      'Giúp giảm các rào cản và mặc cảm trong giao tiếp ban đầu',
+      'Dễ dàng lưu trữ và tham khảo lại sau này',
+      'Giảm sự linh hoạt về thời gian và địa điểm',
+      'Tăng khả năng bị lộ thông tin cá nhân'
+    ],
+    correctAnswer: 1, // B
+    explanation: 'Giao tiếp số cho phép dễ dàng tìm kiếm, tra cứu, lưu trữ các biên bản trao đổi và tài liệu để đối chiếu khi cần.',
+  },
+  {
+    id: 'D1_10',
+    type: 'single_choice',
+    topic: 'Chủ đề D: Đạo đức, Pháp luật & Văn hoá số',
+    section: 'Bài 1: Giao tiếp qua không gian mạng',
+    questionNumber: 10,
+    question: 'Ứng xử nhân văn trên không gian mạng có thể góp phần tạo ra điều gì?',
+    options: [
+      'Một môi trường mạng tiêu cực',
+      'Sự gia tăng của hành vi bắt nạt trực tuyến',
+      'Một xã hội mạng tích cực',
+      'Tăng nguy cơ lừa đảo trực tuyến'
+    ],
+    correctAnswer: 2, // C
+    explanation: 'Ứng xử có văn hóa, tôn trọng và đồng cảm giúp xây dựng một môi trường và xã hội mạng văn minh, tích cực và an toàn.',
+  },
+
+  // ==========================================
+  // CHỦ ĐỀ D: ĐÚNG / SAI
+  // ==========================================
+  {
+    id: 'D1_TF1',
+    type: 'true_false',
+    topic: 'Chủ đề D: Đạo đức, Pháp luật & Văn hoá số',
+    section: 'Chủ đề D: Giao tiếp số (Đúng / Sai)',
+    questionNumber: 1,
+    question: 'Giao tiếp qua không gian mạng có những đặc điểm sau đúng hay sai?',
+    tfSubQuestions: [
+      {
+        id: 'a',
+        label: 'a)',
+        text: 'Giao tiếp qua không gian mạng là việc sử dụng công nghệ kỹ thuật số để liên lạc giữa những người ở xa nhau.',
+        isTrue: true,
+        explanation: 'Đúng. Giao tiếp qua mạng giúp kết nối mọi người bất kể khoảng cách địa lý.',
+      },
+      {
+        id: 'b',
+        label: 'b)',
+        text: 'Giao tiếp qua không gian mạng không bao giờ có thể đồng bộ.',
+        isTrue: false,
+        explanation: 'Sai. Gọi video, thoại trực tiếp hoặc nhắn tin thời gian thực là ví dụ của giao tiếp đồng bộ.',
+      },
+      {
+        id: 'c',
+        label: 'c)',
+        text: 'Giao tiếp không đồng bộ cho phép trao đổi ngay lập tức giữa hai bên.',
+        isTrue: false,
+        explanation: 'Sai. Giao tiếp không đồng bộ (như email, gửi bài tập) không yêu cầu phản hồi tức thời.',
+      },
+      {
+        id: 'd',
+        label: 'd)',
+        text: 'Một trong những ưu điểm của giao tiếp qua không gian mạng là dễ dàng lưu trữ thông tin trao đổi để tham khảo sau này.',
+        isTrue: true,
+        explanation: 'Đúng. Toàn bộ lịch sử tin nhắn, văn bản, tệp tin đều có thể được lưu trữ lâu dài.',
+      },
+    ],
+  },
+  {
+    id: 'D1_TF2',
+    type: 'true_false',
+    topic: 'Chủ đề D: Đạo đức, Pháp luật & Văn hoá số',
+    section: 'Chủ đề D: Vấn đề tiềm ẩn (Đúng / Sai)',
+    questionNumber: 2,
+    question: 'Các vấn đề tiềm ẩn của giao tiếp qua không gian mạng được mô tả như sau đúng hay sai?',
+    tfSubQuestions: [
+      {
+        id: 'a',
+        label: 'a)',
+        text: 'Thiếu ngôn ngữ cơ thể và tín hiệu cảm xúc là một vấn đề tiềm ẩn của giao tiếp qua không gian mạng.',
+        isTrue: true,
+        explanation: 'Đúng. Giao tiếp văn bản thiếu biểu cảm khuôn mặt và âm điệu giọng nói nên dễ dẫn đến hiểu nhầm.',
+      },
+      {
+        id: 'b',
+        label: 'b)',
+        text: 'Giao tiếp qua không gian mạng không bao giờ gây ra hiểu lầm trong giao tiếp văn bản.',
+        isTrue: false,
+        explanation: 'Sai. Do thiếu cảm xúc ngữ điệu, giao tiếp văn bản rất hay bị hiểu sai ý.',
+      },
+      {
+        id: 'c',
+        label: 'c)',
+        text: 'Giao tiếp qua không gian mạng có thể dẫn đến kỹ năng viết kém do sự lười biếng khi viết tin nhắn.',
+        isTrue: true,
+        explanation: 'Đúng. Thói quen viết tắt vô tội vạ, sai chính tả làm giảm kỹ năng diễn đạt văn phong chuẩn.',
+      },
+      {
+        id: 'd',
+        label: 'd)',
+        text: 'Nguy cơ lộ thông tin cá nhân và mất an toàn trên mạng không phải là vấn đề tiềm ẩn của giao tiếp qua không gian mạng.',
+        isTrue: false,
+        explanation: 'Sai. Lộ lọt dữ liệu cá nhân là một trong những nguy cơ nhức nhối hàng đầu hiện nay.',
+      },
+    ],
+  },
+
+  // ==========================================
+  // CHỦ ĐỀ D: TRẮC NGHIỆM PHÁP LUẬT VÀ ỨNG XỬ NHÂN VĂN (10 CÂU)
+  // ==========================================
+  {
+    id: 'D2_1',
+    type: 'single_choice',
+    topic: 'Chủ đề D: Đạo đức, Pháp luật & Văn hoá số',
+    section: 'Chủ đề D: Pháp luật và Quy tắc ứng xử',
+    questionNumber: 1,
+    question: 'Các quy tắc ứng xử trên mạng xã hội phù hợp với quy định của pháp luật được nêu trong văn bản nào?',
+    options: [
+      'Quyết định số 874-QĐ-BTTTT ngày 17/6/2021.',
+      'Quyết định số 874-QĐ-BTTTT ngày 17/6/2019.',
+      'Quyết định số 847-QĐ-BTTTT ngày 17/6/2021.',
+      'Quyết định số 784-QĐ-BTTTT ngày 17/6/2020.'
+    ],
+    correctAnswer: 0, // A
+    explanation: 'Bộ Quy tắc ứng xử trên mạng xã hội được Bộ Thông tin và Truyền thông ban hành kèm theo Quyết định số 874/QĐ-BTTTT ngày 17/6/2021.',
+  },
+  {
+    id: 'D2_2',
+    type: 'single_choice',
+    topic: 'Chủ đề D: Đạo đức, Pháp luật & Văn hoá số',
+    section: 'Chủ đề D: Pháp luật và Quy tắc ứng xử',
+    questionNumber: 2,
+    question: 'Phương án nào sau đây không là công cụ giao tiếp trong không gian mạng?',
+    options: ['Mạng xã hội.', 'Hội nghị truyền hình.', 'Thư giấy.', 'FaceTime.'],
+    correctAnswer: 2, // C
+    explanation: 'Thư giấy là hình thức bưu chính truyền thống qua đường bưu điện, không phải là công cụ giao tiếp trong không gian mạng.',
+  },
+  {
+    id: 'D2_3',
+    type: 'single_choice',
+    topic: 'Chủ đề D: Đạo đức, Pháp luật & Văn hoá số',
+    section: 'Chủ đề D: Pháp luật và Quy tắc ứng xử',
+    questionNumber: 3,
+    question: 'Chia sẻ thông tin chính xác và đáng tin cậy, tránh lan truyền thông tin sai lệch hoặc tin đồn thể hiện khía cạnh nào trong việc ứng xử nhân văn trong không gian mạng?',
+    options: ['Lịch sự.', 'Thấu hiểu.', 'Tôn trọng.', 'Hỗ trợ.'],
+    correctAnswer: 2, // C
+    explanation: 'Việc tôn trọng người nghe/cộng đồng mạng đòi hỏi chúng ta chỉ chia sẻ thông tin chính xác, không phát tán tin giả hay bôi nhọ.',
+  },
+  {
+    id: 'D2_4',
+    type: 'single_choice',
+    topic: 'Chủ đề D: Đạo đức, Pháp luật & Văn hoá số',
+    section: 'Chủ đề D: Pháp luật và Quy tắc ứng xử',
+    questionNumber: 4,
+    question: 'Em cần ứng xử như thế nào để thể hiện sự tôn trọng khi giao tiếp trong không gian mạng?',
+    options: [
+      'Cố gắng đặt mình vào hoàn cảnh của người khác để có thể hiểu được những suy nghĩ, tình cảm, vấn đề của họ.',
+      'Không sử dụng ngôn từ nhạy cảm, lăng mạ, châm chọc, phỉ báng hoặc phân biệt chủng tộc, giới tính, tôn giáo,…',
+      'Không châm chọc hoặc làm cho người khác cảm thấy bị tổn thương.',
+      'Gửi những lời động viên chân thành, những tin nhắn an ủi khi người khác đang gặp khó khăn.'
+    ],
+    correctAnswer: 1, // B
+    explanation: 'Tôn trọng người khác trên không gian mạng thể hiện rõ nét qua việc giữ gìn lời ăn tiếng nói, không chửi rủa, lăng mạ, phân biệt đối xử.',
+  },
+  {
+    id: 'D2_5',
+    type: 'single_choice',
+    topic: 'Chủ đề D: Đạo đức, Pháp luật & Văn hoá số',
+    section: 'Chủ đề D: Pháp luật và Quy tắc ứng xử',
+    questionNumber: 5,
+    question: 'Em cần làm gì để hình thành thói quen ứng xử nhân văn trong không gian mạng?',
+    options: [
+      'Đối xử với người khác theo cách mà mình muốn.',
+      'Tự kiểm điểm, cải thiện hành vi trực tuyến của mình.',
+      'Làm theo ý muốn cá nhân, không tôn trọng ý kiến của người khác.',
+      'Sử dụng ngôn từ và cách viết tuỳ hứng.'
+    ],
+    correctAnswer: 1, // B
+    explanation: 'Thường xuyên tự kiểm điểm, soi chiếu lời nói và hành vi trực tuyến của bản thân để không ngừng hoàn thiện nếp sống văn minh trên mạng.',
+  },
+  {
+    id: 'D2_6',
+    type: 'single_choice',
+    topic: 'Chủ đề D: Đạo đức, Pháp luật & Văn hoá số',
+    section: 'Chủ đề D: Pháp luật và Quy tắc ứng xử',
+    questionNumber: 6,
+    question: 'Khi tham gia một cuộc thảo luận trên mạng xã hội, em cần ứng xử như thế nào?',
+    options: [
+      'Tự ý trao đổi thông tin riêng tư trong thư điện tử giữa hai người với bên thứ ba.',
+      'Mặc quần áo lịch sự và không để lộ những vật dụng hoặc cảnh quan không phù hợp.',
+      'Sử dụng ngôn từ khiêu khích khi không đồng tình với ý kiến của người khác.',
+      'Nếu có ý kiến trái ngược, cần trao đổi một cách lịch sự trên tinh thần tôn trọng quan điểm của người khác.'
+    ],
+    correctAnswer: 3, // D
+    explanation: 'Khi có quan điểm bất đồng, hãy giữ bình tĩnh, lập luận logic và đối thoại lịch thiệp, tôn trọng người đối thoại.',
+  },
+  {
+    id: 'D2_7',
+    type: 'single_choice',
+    topic: 'Chủ đề D: Đạo đức, Pháp luật & Văn hoá số',
+    section: 'Chủ đề D: Pháp luật và Quy tắc ứng xử',
+    questionNumber: 7,
+    question: 'Phương án nào sau đây không là tình huống sử dụng giao tiếp trong không gian mạng?',
+    options: ['Tham gia một cuộc họp trực tuyến.', 'Tới thăm nhà họ hàng.', 'Nộp bài tập bằng thư điện tử.', 'Trò chuyện nhóm trên Facebook.'],
+    correctAnswer: 1, // B
+    explanation: 'Tới thăm nhà họ hàng là hoạt động gặp gỡ trực tiếp ngoài đời thực, không phải giao tiếp qua không gian mạng.',
+  },
+  {
+    id: 'D2_8',
+    type: 'single_choice',
+    topic: 'Chủ đề D: Đạo đức, Pháp luật & Văn hoá số',
+    section: 'Bài 1: Làm quen với Trí tuệ nhân tạo',
+    questionNumber: 8,
+    question: 'Trợ lí ảo được phát triển đặc biệt cho hệ điều hành Windows là',
+    options: ['Siri.', 'Cortana.', 'Bixby.', 'Alexa.'],
+    correctAnswer: 1, // B
+    explanation: 'Cortana là trợ lý ảo được Microsoft thiết kế tích hợp trực tiếp trên hệ điều hành Windows 10 và 11.',
+  },
+  {
+    id: 'D2_9',
+    type: 'single_choice',
+    topic: 'Chủ đề D: Đạo đức, Pháp luật & Văn hoá số',
+    section: 'Chủ đề D: Pháp luật và Quy tắc ứng xử',
+    questionNumber: 9,
+    question: 'Giao tiếp trong không gian mạng giúp mở rộng kết nối xã hội như thế nào?',
+    options: [
+      'Không gian mạng cung cấp nhiều công cụ giao tiếp trực tuyến như hội nghị truyền hình, nhắn tin nhanh, thư điện tử, mạng xã hội, ...',
+      'Những người sống xa nhau có thể giao tiếp với nhau mọi lúc, mọi nơi, miễn là có kết nối mạng.',
+      'Điện thoại video giúp con người gần nhau hơn khi không có điều kiện sống cùng nhau.',
+      'Giúp xây dựng thương hiệu cá nhân hoặc doanh nghiệp bằng cách thông qua các kênh truyền thông xã hội, tạo ấn tượng tốt để thu hút khách hàng và bạn bè.'
+    ],
+    correctAnswer: 1, // B
+    explanation: 'Giao tiếp mạng xóa nhòa khoảng cách không gian và thời gian, giúp mọi người dễ dàng kết nối mọi lúc, mọi nơi khi có mạng Internet.',
+  },
+  {
+    id: 'D2_10',
+    type: 'single_choice',
+    topic: 'Chủ đề D: Đạo đức, Pháp luật & Văn hoá số',
+    section: 'Chủ đề D: Pháp luật và Quy tắc ứng xử',
+    questionNumber: 10,
+    question: 'Vì sao lại nói giao tiếp trong không gian mạng ẩn chứa nhiều nguy cơ về bảo mật và quyền riêng tư?',
+    options: [
+      'Trong không gian mạng, người sử dụng có thể dễ dàng giấu mặt, tạo ra các bản sao không đầy đủ của bản thân hoặc giả mạo thông tin, làm cho người khác khó đánh giá được tính chân thật của thông tin và sự thật về người đối diện.',
+      'Mất kết nối mạng dẫn đến giao tiếp bị trì hoãn hoặc bị gián đoạn.',
+      'Dữ liệu bị xâm phạm khiến các thông tin riêng tư và nhạy cảm bị rò rỉ hoặc bị tấn công bởi những kẻ xấu.',
+      'Thư điện tử hay tin nhắn có thể gây khó khăn trong việc truyền đạt cảm xúc và dẫn đến những hiểu lầm không đáng có.'
+    ],
+    correctAnswer: 2, // C
+    explanation: 'Hệ thống mạng có nguy cơ bị tấn công, dẫn tới việc rò rỉ và chiếm đoạt các dữ liệu thông tin cá nhân bí mật và nhạy cảm của người dùng.',
+  },
+
+  // ==========================================
+  // CÁC CÂU HỎI TRẮC NGHIỆM 4 ĐÁP ÁN (Đồng bộ toàn bộ đề thi sang 100% trắc nghiệm lựa chọn)
+  // ==========================================
+  {
+    id: 'SA_1',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 3: Mạng máy tính và thiết bị',
+    questionNumber: 1,
+    question: 'Địa chỉ MAC gồm bao nhiêu ký tự thuộc hệ thập lục phân (hexadecimal)?',
+    options: ['8 ký tự.', '12 ký tự.', '16 ký tự.', '48 ký tự.'],
+    correctAnswer: 1, // B
+    explanation: 'Địa chỉ MAC gồm 12 ký tự hex (tương ứng 48 bit hoặc 6 byte), ví dụ: 00:1A:2B:3C:4D:5E.',
+  },
+  {
+    id: 'SA_2',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 3: Mạng máy tính và thiết bị',
+    questionNumber: 2,
+    question: 'Địa chỉ IP nhị phân 11001011 10100010 00101001 11111110 chuyển sang dạng thập phân là',
+    options: ['203.162.41.254.', '192.168.1.1.', '172.16.254.1.', '10.0.0.254.'],
+    correctAnswer: 0, // A
+    explanation: '11001011.10100010.00101001.11111110 = 203.162.41.254.',
+  },
+  {
+    id: 'SA_3',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 1: Làm quen với Trí tuệ nhân tạo',
+    questionNumber: 3,
+    question: 'Hội thảo đánh dấu sự ra đời của thuật ngữ Trí tuệ nhân tạo (AI) vào năm 1956 được tổ chức tại đâu?',
+    options: ['Hội thảo Dartmouth.', 'Hội thảo Stanford.', 'Hội thảo Harvard.', 'Hội thảo MIT.'],
+    correctAnswer: 0, // A
+    explanation: 'Hội thảo Dartmouth năm 1956 tại Hanover, New Hampshire (Hoa Kỳ) là mốc khai sinh ngành AI và thuật ngữ Trí tuệ nhân tạo ra đời tại đây.',
+  },
+  {
+    id: 'SA_4',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 4: Giao thức mạng',
+    questionNumber: 4,
+    question: 'Tên viết tắt của giao thức chuẩn dùng để gửi thư điện tử (email) trên mạng Internet là',
+    options: ['POP3.', 'SMTP.', 'IMAP.', 'FTP.'],
+    correctAnswer: 1, // B
+    explanation: 'SMTP là viết tắt của Simple Mail Transfer Protocol - giao thức chuẩn dùng để gửi thư điện tử.',
+  },
+  {
+    id: 'SA_5',
+    type: 'single_choice',
+    topic: 'Chủ đề B: Cơ sở về Mạng máy tính',
+    section: 'Bài 4: Giao thức mạng',
+    questionNumber: 5,
+    question: 'Lệnh nào của giao thức ICMP được dùng phổ biến trên dòng lệnh để kiểm tra kết nối giữa 2 máy tính?',
+    options: ['ipconfig.', 'tracert.', 'ping.', 'nslookup.'],
+    correctAnswer: 2, // C
+    explanation: 'Lệnh "ping" gửi gói ICMP Echo Request để xác định khả năng liên lạc thông suốt giữa 2 máy tính.',
+  },
+  {
+    id: 'SA_6',
+    type: 'single_choice',
+    topic: 'Chủ đề D: Đạo đức, Pháp luật & Văn hoá số',
+    section: 'Chủ đề D: Pháp luật và Quy tắc ứng xử',
+    questionNumber: 6,
+    question: 'Bộ quy tắc ứng xử trên mạng xã hội được ban hành theo Quyết định số mấy của Bộ Thông tin và Truyền thông năm 2021?',
+    options: ['Quyết định số 874/QĐ-BTTTT.', 'Quyết định số 102/QĐ-BTTTT.', 'Quyết định số 365/QĐ-BTTTT.', 'Quyết định số 512/QĐ-BTTTT.'],
+    correctAnswer: 0, // A
+    explanation: 'Bộ quy tắc ứng xử trên mạng xã hội được ban hành theo Quyết định số 874/QĐ-BTTTT ngày 17/6/2021 của Bộ Thông tin và Truyền thông.',
+  },
+  {
+    id: 'SA_7',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 1: Làm quen với Trí tuệ nhân tạo',
+    questionNumber: 7,
+    question: 'Trợ lí ảo thông minh độc quyền trên các thiết bị của Samsung có tên là gì?',
+    options: ['Siri.', 'Bixby.', 'Cortana.', 'Google Assistant.'],
+    correctAnswer: 1, // B
+    explanation: 'Bixby là trợ lý ảo thông minh độc quyền được Samsung ra mắt cùng dòng Galaxy S8.',
+  },
+  {
+    id: 'SA_8',
+    type: 'single_choice',
+    topic: 'Chủ đề A: Máy tính và Xã hội tri thức',
+    section: 'Bài 1: Làm quen với Trí tuệ nhân tạo',
+    questionNumber: 8,
+    question: 'Trợ lí ảo được tích hợp sẵn trên hệ điều hành Windows của Microsoft có tên là gì?',
+    options: ['Siri.', 'Alexa.', 'Cortana.', 'Bixby.'],
+    correctAnswer: 2, // C
+    explanation: 'Cortana là trợ lý ảo do Microsoft phát triển tích hợp sẵn trong hệ điều hành Windows.',
+  },
+];
